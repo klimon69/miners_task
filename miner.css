@@ -8,7 +8,7 @@
 	 position: relative;
 	font-size: 18px;
 	font-family: roboto;
-	
+
 }
 
 
@@ -29,6 +29,14 @@ video {
     /*border-radius: 5px;*/
    /* background-color: #475477;*/
     padding: 1em;
+}
+
+
+.main_text{
+	margin-top: 19%;
+	margin-left: 4%;
+
+
 }
 
 
@@ -63,4 +71,42 @@ margin-left: 2%;
 .box2{
 
 	background-color: #d21f26;
+}
+
+
+.redletters {
+
+	color: red;
+}
+
+.paragraf1 {
+
+font-family: Verdana;
+color: #161212;
+padding-top: 1%;
+font-size: 55%;
+border-top: 2px solid #D3D3D3;
+width: 35%;
+}
+
+
+h1{
+
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 285%;
+	color: #161212;
+}
+
+h3{
+
+	font-family: Verdana;
+	
+	font-size: 130%;
+	color: #161212;
+
+}
+.paragraf1 a{
+
+	text-decoration: none;
 }
