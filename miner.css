@@ -1,30 +1,66 @@
 
 
-.box {
-    background-color: #28314E;
+.box1 {
+    /*background-color: #28314E;*/
 	/*border: 1px solid #212941;*/
 	/*border-radius: 5px;*/
 	/*padding: 8px 15px;*/
-	color: #ffffff;
+	 position: relative;
 	font-size: 18px;
 	font-family: roboto;
+	
 }
-.nested {
+
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  
+  z-index: -1;
+}
+
+
+.nested {                        /*Шапка */
 	grid-template-rows: 100%;
-    
+    height: 120px;
     /*border-radius: 5px;*/
-    background-color: #475477;
+   /* background-color: #475477;*/
     padding: 1em;
 }
 
 
-.box1 {
-   grid-template-rows: 100%;
-}
 
 .grid{
 	display: grid;
-	grid-template-rows: 800px 100px;  /*задаём высоту рядов*/
-	grid-row-gap: 10px;
+	grid-template-rows: 800px 195px;  /*задаём высоту рядов*/
+	
 	margin: -8px;         /*убрал по кругу отступы как мог*/
+}
+
+
+.logo{
+
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 10%;
+	float: left;
+
+}
+
+.headinf{
+
+margin-left: 2%;
+	margin-top: 2%;
+	width: 10%;
+	float: right;
+
+
+}
+
+.box2{
+
+	background-color: #d21f26;
 }
