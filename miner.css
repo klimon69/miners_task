@@ -1,5 +1,30 @@
-body{
-	
-background-color: white;
 
+
+.box {
+    background-color: #28314E;
+	/*border: 1px solid #212941;*/
+	/*border-radius: 5px;*/
+	/*padding: 8px 15px;*/
+	color: #ffffff;
+	font-size: 18px;
+	font-family: roboto;
+}
+.nested {
+	grid-template-rows: 100%;
+    
+    /*border-radius: 5px;*/
+    background-color: #475477;
+    padding: 1em;
+}
+
+
+.box1 {
+   grid-template-rows: 100%;
+}
+
+.grid{
+	display: grid;
+	grid-template-rows: 800px 100px;  /*задаём высоту рядов*/
+	grid-row-gap: 10px;
+	margin: -8px;         /*убрал по кругу отступы как мог*/
 }
