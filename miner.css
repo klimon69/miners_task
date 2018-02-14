@@ -127,6 +127,7 @@ video {
 	margin: -8px;         /*убрал по кругу отступы как мог*/
 }
 
+/*Лого верхний левый угол*/
 
 .logo{
 
@@ -137,18 +138,135 @@ video {
 
 }
 
+/*голова страницы*/
+
 .headinf{
 
-	width: 400px;
+	width: 750px;
 	height: 50px;
-	background-color: #d21f26;
+	/*background-color: #d21f26;*/
 	margin-top: 2%;
-	margin-right: 90px;
+	
 	float: right;
 
 
 }
 
+
+.ru{
+	padding-top: 7px;
+	float: left;
+	
+    
+}
+
+.oformit{
+    background-color: #d21f26;
+    margin-right: 25px;
+    width: 298px;
+    height: 44px;
+    border-radius: 100px;
+    float: left;
+
+}
+
+
+.oform {
+
+    color: black;
+	margin-top: 15px;
+	margin-left: 40px;
+    font-family: ProximaNova;
+    color: white;
+    font-size: 14px;
+}
+
+
+.kupit{
+    width: 184px;
+    height: 44px;
+    opacity: 0.2;
+    border-radius: 100px;
+    border: solid 2px #4a4a4a;
+    float: left;
+    position: relative;
+    
+
+}
+
+.kupi{
+	position: absolute;
+	opacity: 1;
+	color: black;
+	margin-left: 445px;
+	margin-top: 17px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    color: #273444;
+
+
+
+
+}
+
+
+.burger{
+	padding-top: 7px;
+    float: left;
+    margin-left: 5%;
+
+
+}
+
+
+/*НАЧАЛО ВЫБОР ЯЗЫКА*/
+
+ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.topmenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: ProximaNova;
+    font-size: 15px;
+    color: #273444;
+  
+}
+
+
+.one .submenu {
+    display: none;
+    background: white;
+  
+}
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+
+.submenu li a {
+  
+    color: black;
+    font-family: ProximaNova;
+    font-size: 10px;
+    color: #273444;
+}
+
+/*КОНЕЦ ВЫБОР ЯЗЫКА*/
 
 
 
@@ -169,10 +287,10 @@ font-family: ProximaNova;
   letter-spacing: 2px;
   text-align: left;
   color: #273444;
-padding-top: 1%;
-font-size: 55%;
-border-top: 2px solid #D3D3D3;
-width: 35%;
+  padding-top: 1%;
+  font-size: 55%;
+  border-top: 2px solid #D3D3D3;
+  width: 35%;
 }
 
 
