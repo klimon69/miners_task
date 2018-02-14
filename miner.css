@@ -235,7 +235,7 @@ ul {
 }
 
 
-a {
+a{
     display: block;
     padding: 10px 15px;
     text-decoration: none;
@@ -272,14 +272,17 @@ a {
 
 .redletters {
 
-	color: red;
+	color: #d21f26;
+	
+	
+
 }
 
 .paragraf1 {
 
 
 font-family: ProximaNova;
-  font-size: 11px;
+  font-size: 55%;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -288,9 +291,10 @@ font-family: ProximaNova;
   text-align: left;
   color: #273444;
   padding-top: 1%;
-  font-size: 55%;
+  
   border-top: 2px solid #D3D3D3;
   width: 35%;
+
 }
 
 
@@ -322,8 +326,8 @@ h3{
   color: #273444;
 
 }
-.paragraf1 a{
 
-	text-decoration: none;
 
-}
+	
+	
+
