@@ -84,16 +84,17 @@
 
 
 video {
+  -webkit-transform: scaleX(1.3);
   position: absolute;
-  margin-left: 0px;
+  margin-left: -20%;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  width: 100%;
+  width: 140%;
   height: auto;
   max-height: 100%;
   position: fixed;
-		overflow: hidden;
+  overflow: hidden;
   
   z-index: -1;
 }
