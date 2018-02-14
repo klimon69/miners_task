@@ -11,16 +11,72 @@
 
 }
 
+.box2{
+
+	background-color: #d21f26;
+	font-size: 50px;
+}
+
+
+.box3{
+
+   background-color: white;
+   font-size: 50px;
+
+}
+
+
+.box4{
+
+   background-color: #d21f26;
+   font-size: 50px;
+}
+
+
+.box5{
+
+   background-color: white;
+   font-size: 50px;
+}
+
+
+
+.box6{
+
+   background-color: #d21f26;
+   font-size: 50px;
+
+}
+
+
+
+.box7{
+
+   background-color: white;
+   font-size: 50px;
+
+}
+
+
+.box8{
+
+   background-color: #d21f26;
+   font-size: 50px;
+
+}
+
 
 video {
   position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   width: 100%;
   height: auto;
   max-height: 100%;
+  position: fixed;
+		overflow: hidden;
   
   z-index: -1;
 }
@@ -36,8 +92,10 @@ video {
 
 
 .main_text{
-	margin-top: 19%;
-	margin-left: 4%;
+	margin-top: 250px;
+	margin-left: 20%;
+	
+	margin-bottom: 10%;
 
 
 }
@@ -46,7 +104,7 @@ video {
 
 .grid{
 	display: grid;
-	grid-template-rows: 800px 195px;  /*задаём высоту рядов*/
+	grid-template-rows: 800px 195px 500px 500px 500px 500px 500px 500px;  /*задаём высоту рядов*/
 	
 	margin: -8px;         /*убрал по кругу отступы как мог*/
 }
@@ -71,10 +129,7 @@ margin-left: 2%;
 
 }
 
-.box2{
 
-	background-color: #d21f26;
-}
 
 
 .redletters {
