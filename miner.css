@@ -138,9 +138,11 @@ video {
 
 .headinf{
 
-margin-left: 2%;
+	width: 400px;
+	height: 50px;
+	background-color: #d21f26;
 	margin-top: 2%;
-	width: 10%;
+	margin-right: 90px;
 	float: right;
 
 
