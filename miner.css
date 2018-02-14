@@ -1,4 +1,21 @@
 
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/ProximaNova-Reg.otf);
+    
+
+
+}
+
+@font-face {
+    
+    font-family: ProximaNovaLight;
+    src: url(fonts/ProximaNova-Light.otf);
+
+
+}
+
+
 
 .box1 {
     /*background-color: #28314E;*/
@@ -139,8 +156,16 @@ margin-left: 2%;
 
 .paragraf1 {
 
-font-family: Verdana;
-color: #161212;
+
+font-family: ProximaNova;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #273444;
 padding-top: 1%;
 font-size: 55%;
 border-top: 2px solid #D3D3D3;
@@ -150,21 +175,34 @@ width: 35%;
 
 h1{
 
-	font-family: Arial;
-	font-weight: normal;
-	font-size: 285%;
-	color: #161212;
+	font-family: ProximaNova;
+  font-size: 53px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  
 }
 
 h3{
 
-	font-family: Verdana;
 	
-	font-size: 130%;
-	color: #161212;
+	font-family: ProximaNovaLight;
+	font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
 
 }
 .paragraf1 a{
 
 	text-decoration: none;
+
 }
