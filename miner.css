@@ -352,19 +352,19 @@ h3{
 
 .rightpodval{
  
-  font-family: ProximaNovaLight;
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   color: #FFFFE0;
-  letter-spacing: normal;
   margin-top: 20px;
   float: left;
   
-  
-  
-  
+}
+
+
+
+.rightpodval h4{
+
+font-family: ProximaNovaLight;
+  font-size: 18px;
+
   
 }
 	
@@ -378,22 +378,31 @@ margin-right: 10px;
 
 
 
-  .inputemail input{
+  input{
   width: 266px;
   height: 56px;
 color: white;
-  opacity: 0.23;
+ padding-top: 5px;
   float: left;
   border-radius: 100px;
-  background-color: #d8d8d8;
+  background-color : rgba(0, 255, 255, 0.23);
+  border: 0px solid #1E3D51 ;
+box-shadow: none ;
+-webkit-box-shadow: none;
+-moz-box-shadow: none; 
+  
+  
   
 
 }
 
 input[value]{
-color:white;
-font-size: 25px;
-padding-left: 20px;
+ font-family: ProximaNovaLight;
+font-size: 20px;
+text-align: center;
+outline:none;
+
+
 
 }
 
@@ -407,18 +416,23 @@ padding-left: 20px;
   width: 200px;
   height: 56px;
 color: black;
-  float: left;
-  font-family: ProximaNova;
-  font-size: 12px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 2px;
+  
+  
+  
   text-align: center;
   border-radius: 100px;
   background-color: white;
   
 }
 
+
+.sign h4{
+
+font-size: 15px;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+}
 
