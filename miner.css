@@ -118,7 +118,7 @@ video {
 
 .grid{
 	display: grid;
-	grid-template-rows: 800px 195px 900px 500px 500px 500px 500px 500px;  /*задаём высоту рядов*/
+	grid-template-rows: 800px 195px 1000px 500px 500px 500px 500px 500px;  /*задаём высоту рядов*/
 	
 	margin: -8px;         /*убрал по кругу отступы как мог*/
 }
@@ -794,3 +794,40 @@ font-family: ProximaNovaLight;
   color: #273444;
   margin-top: 9px;
 }
+
+
+
+.miner1_left{
+  width: 500px;
+  margin-top: 400px;
+  
+  margin-left: 200px;
+  
+}
+
+
+.miner1_right{
+padding-bottom: 300px;
+background-color: yellow;
+
+
+
+}
+
+
+.miner1_h1{
+
+
+  width: 300px;
+ 
+  margin-left: 847px;
+  font-family: ProximaNovaLight;
+  font-size: 50px;
+  font-weight: 300;
+  
+  text-align: left;
+  color: #273444;
+  margin-top: 9px;
+}
+
+
