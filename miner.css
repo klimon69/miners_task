@@ -339,7 +339,7 @@ h3{
   letter-spacing: normal;
   text-align: left;
   float: left;
-  width: 40%;
+  width: 35%;
   height: 60%;
   margin-left: 350px;
   
@@ -380,13 +380,13 @@ margin-right: 10px;
 
   input{
   width: 266px;
-  height: 56px;
+  height: 40px;
 color: white;
  padding-top: 5px;
   float: left;
   border-radius: 100px;
   background-color : rgba(0, 255, 255, 0.23);
-  border: 0px solid #1E3D51 ;
+  border: 0px solid white ;
 box-shadow: none ;
 -webkit-box-shadow: none;
 -moz-box-shadow: none; 
@@ -409,16 +409,16 @@ outline:none;
  
 .sign
  {
-  margin-left: 30px;
-  padding-top: 5px;
+  margin-left: 10px;
+  
 
   float: right;
-  width: 200px;
-  height: 56px;
+  width: 180px;
+  height: 25px;
 color: black;
   
   
-  
+  padding-bottom: 20px;
   text-align: center;
   border-radius: 100px;
   background-color: white;
@@ -428,11 +428,12 @@ color: black;
 
 .sign h4{
 
-font-size: 15px;
+font-size: 13px;
   font-weight: bolder;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1px;
+
 }
 
