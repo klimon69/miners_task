@@ -24,23 +24,23 @@ body {
         color: #444;
     }
 
-    .a {
+    .A {
         grid-column: col / span 4;
         grid-row: row;
     }
 
-    .b {
+    .B {
         background-color: #d21f26;
         grid-column: col / span 4;
         grid-row: row 2;
     }
 
-    .c {
+    .C {
         grid-column: col / span 4;
         grid-row: row 3;
     }
 
-    .d{
+    .D{
         grid-column: col / span 4;
         grid-row: row 4;
         display: grid;
@@ -48,21 +48,56 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 
-    .e {
+    .Da {
         grid-column: 1 / 3;
         grid-row: 1;
     }
 
-    .f {
+    .Db {
         grid-column: 1;
         grid-row: 2;
     }
 
-    .g {
+    .Dc {
         grid-column: 2;
         grid-row: 2;
     }
 
+    .E {
+        grid-column: col / span 4;
+        grid-row: row 5;
+    }
+
+    .F {
+        background-color: #d21f26;
+        grid-column: col / span 4;
+        grid-row: row 6;
+    }
+
+    .G {
+        grid-column: col / span 4;
+        grid-row: row 7;
+    }
+    .H {
+        grid-column: col / span 4;
+        grid-row: row 8;
+    }
+
+    .I {
+        background-color: #d21f26;
+        grid-column: col / span 4;
+        grid-row: row 9;
+    }
+
+    .J {
+        grid-column: col / span 4;
+        grid-row: row 10;
+    }
+
+    .K {
+        grid-column: col / span 4;
+        grid-row: row 11;
+    }
 video {
   -webkit-transform: scaleX(1.3);
   position: inherit;
