@@ -11,6 +11,7 @@
 
   grid-template-rows: 20px 150px 550px 200px 800px;
   grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
 }
 
 
@@ -30,6 +31,9 @@
 
 
 #page > request {
+  /*align-self: center;   Выравнивание содержимого ячейки по вертикали по центру*/
+
+  
   grid-area: request;
   background-color: #ffa08c;
 }
