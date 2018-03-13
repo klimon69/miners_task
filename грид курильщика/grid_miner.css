@@ -17,7 +17,6 @@
 #page > vidos {
   grid-area: vidos;
   
-
 }
 
 
@@ -60,7 +59,7 @@
 
 
 video {
-  -webkit-transform: scaleX(1.3);
+  -webkit-transform: scaleX(1.5);
     position: fixed;
     z-index: -100;
     width: 100vw;
