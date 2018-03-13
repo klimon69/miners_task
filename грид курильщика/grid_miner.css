@@ -1,0 +1,67 @@
+#page {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas: "vidos . . . . ."
+                       ". logo . . request ."
+                       " . . maintext maintext . ."
+                       "social social  social email email email"
+                       "govno govno govno govno govno govno";
+
+
+  grid-template-rows: 20px 150px 550px 200px 800px;
+  grid-template-columns: 20px 1fr 1fr 1fr 1fr 50px;
+}
+
+
+#page > vidos {
+  grid-area: vidos;
+  
+
+}
+
+
+#page > logo {
+  grid-area: logo;
+  
+
+}
+
+
+
+#page > request {
+  grid-area: request;
+  background-color: #ffa08c;
+}
+
+#page > maintext {
+  grid-area: maintext;
+  background-color: #ffff64;
+  opacity: 0.5;
+}
+
+#page > social {
+  grid-area: social;
+  background-color: red;
+}
+
+
+#page > email {
+  grid-area: email;
+  background-color: red;
+}
+
+
+#page > govno {
+  grid-area: govno;
+  background-color: white;
+}
+
+
+
+video {
+  -webkit-transform: scaleX(1.3);
+    position: fixed;
+    z-index: -100;
+    width: 100vw;
+    height: 100vh;
