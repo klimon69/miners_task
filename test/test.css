@@ -27,13 +27,16 @@ body {
 
   .request {
     grid-area: request;
+    text-align: right;
   }
 
 
   .wrapper {
     display: grid;
+    height: 750px;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
     grid-template-areas:
     "logotype  request  request" 
     "sidebar maintext maintext"
@@ -53,22 +56,27 @@ body {
 
   .logotype {
     /*background-color: #999;*/
+    padding: 5vw;
   }
 
   .overlay {
-    background-color: red;
+    background-color: #d21f26;
     z-index: 10;
     grid-column: logotype-start / request-end;
     grid-row: request-start / maintext-end;
   }
 
   video {
-    -webkit-transform: scaleX(1.5);
+    /*-webkit-transform: scaleX(1.5);*/
     position: relative;
-    width: 100vw;
-    height: inherit;
+    width: 100%;
+    height: auto ;
     }
 
+
+.burger{
+    float: left;
+    }
 
 .maintext h1{
 
@@ -107,21 +115,36 @@ body {
   color: #273444;
 }
 
+/*wrapper1 ссылки и рассылки*/
+/*--------Начало------------*/
   .leftpodval {
     grid-area: leftpodval;
+  }
+
+  .logos {
+     padding-left: 10vw;  
+  }
+
+  .leftpodval h4 {
+     padding-left: 10vw;   
   }
 
   .rightpodval {
     grid-area: rightpodval;
   }
 
+
+
   .wrapper1 {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
+    height: 20vh;
     grid-template-areas:
     "leftpodval rightpodval";
 
-    background-color: red;
+    background-color: #d21f26;
     color: #444;
   }
+/*--------Конец------------*/
+/*wrapper1 ссылки и рассылки*/
