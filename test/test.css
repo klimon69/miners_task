@@ -160,7 +160,7 @@ body {
 /*-------------------------------------another resolution-------------------------------------*/
 
 /*--------------------------------------------------------------------------------------------*/
-@media (orientation: portrait) and (max-width: 949px)   
+@media screen and (orientation: portrait), screen and (max-width: 899px)   
 {
   .wrapper {
     display: grid;
