@@ -16,16 +16,16 @@ body {
   .maintext {
     grid-area: maintext;
     word-wrap: break-word;
-  }
+    }
 
   .logotype {
     grid-area: logotype;
-  }
+    }
 
   .request {
     grid-area: request;
     text-align: right;
-  }
+    }
 
 
   .wrapper {
@@ -40,7 +40,7 @@ body {
     ". maintext maintext";
     background-color: #fff;
     color: #444;
-  }
+    }
 
   .box {
     /*background-color: #444;*/
@@ -49,12 +49,12 @@ body {
     /*padding: 20px;*/
     font-size: 150%;
     z-index: 2;
-  }
+    }
 
   .logotype {
     /*background-color: #999;*/
     padding: 5vw;
-  }
+    }
 
   .overlay {
     background-color: #d21f26;
@@ -71,65 +71,160 @@ body {
     height: auto ;
     }
 
-.burger{
+
+  .applyfor {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #d21f26;
+    color: #fff;
+    font-family: ProximaNova;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    padding-top: 3em;
+    padding-right: 5em;
+    border-radius: 100px;
+    }
+
+/*    padding-right: 9%;
+    width: 300px;
+    height: 45px;
+    border-radius: 100px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    text-align: center;
+    color: #273444;
+    float: right;*/
+
+  .ru {
+    padding-top: 1em;
+    float: left;    
+    }
+
+  .burger {
+    padding-top: 1em;
+    float: right;
+    padding-right: 5%;
+    }
+
+  .buyRMC {
+    opacity: 1;
+    color: black;
+    padding-right: 7%;
+    padding-top: 1em;
+    font-family: ProximaNova;
+    font-size: 12px;
+    text-align: center;
+    color: #273444;
+    width: 180px;
+    height: 45px;
+    opacity: 0.2;
+    border-radius: 100px;
+    border: solid 2px #4a4a4a;
     float: right;
     }
 
-.maintext h1{
+/*НАЧАЛО ВЫБОР ЯЗЫКА*/
+  ul {
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+   }
 
-  font-family: ProximaNova;
-  font-size: 53px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.32;
-  letter-spacing: normal;
-  text-align: left;
-  color: #273444;
+
+.topmenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
 }
 
-.maintext h3{
-  font-family: ProximaNovaLight;
-  font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #273444;
+
+a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: ProximaNova;
+    font-size: 15px;
+    color: #273444;
 }
 
-.maintext p{
-  font-family: ProximaNovaLight;
-  font-size: 11px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #273444;
+
+.one .submenu {
+    display: none;
+    background: white;
 }
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+
+.submenu li a {
+  
+    color: black;
+    font-family: ProximaNova;
+    font-size: 10px;
+    color: #273444;
+}
+
+/*КОНЕЦ ВЫБОР ЯЗЫКА*/
+
+  .maintext h1{
+    font-family: ProximaNova;
+    font-size: 53px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273444;
+    }
+
+  .maintext h3{
+    font-family: ProximaNovaLight;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273444;
+    }
+
+  .maintext p{
+    font-family: ProximaNovaLight;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273444;
+    }
 
 /*wrapper1 ссылки и рассылки*/
   .leftpodval {
     grid-area: leftpodval;
-  }
+    }
 
   .logos {
+    padding-left: 10vw;  
+    }
 
-     padding-left: 10vw;  
-  }
   .leftpodval h4 {
     grid-area: leftpodval;
     padding-left: 10vw;   
-  }
+    }
 
   .rightpodval {
     grid-area: rightpodval;
     padding-left: 10vw;   
-  }
+    }
 
   .wrapper1 {
     font-size: 20px;
@@ -144,7 +239,7 @@ body {
 
     background-color: #d21f26;
     color: #444;
-  }
+    }
 
 /*wrapper2 что такое RMC*/
   .wrapper2 {
@@ -154,7 +249,7 @@ body {
     grid-template-columns: 1fr 1fr;
     background-color: #d21fff;
     color: #444;
-  }
+    }
 /*--------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------another resolution-------------------------------------*/
