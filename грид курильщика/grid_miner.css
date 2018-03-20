@@ -24,6 +24,7 @@
 
 #page > vidos {
   grid-area: vidos;
+
   
 }
 
@@ -77,12 +78,7 @@
 
 
 
-.video-container{
 
- background-size: cover; 
- overflow: hidden;
- position: relative;
-}
 
 
 video {
@@ -92,7 +88,7 @@ video {
     top: -20%;
     width: 100%;
     height: 100% auto;
-
+    background-color: red;
     
 }
 
@@ -102,7 +98,7 @@ video {
 
 
 
-@media (orientation: portrait) and (max-width: 1000px)   {
+@media screen and (orientation: portrait), screen and (max-width: 1000px)   {
 
 
 

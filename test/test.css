@@ -16,6 +16,8 @@ body {
   .maintext {
     grid-area: maintext;
     word-wrap: break-word;
+    background-color: blue;
+    opacity: 0.5;
   }
 
   .logotype {
@@ -24,9 +26,71 @@ body {
 
   .request {
     grid-area: request;
-    text-align: right;
+    position: relative;
+    
+    
+    padding-top: 50px;
+    
+    
   }
 
+
+/*======================================начало выбор языка=============================================*/
+
+
+
+.ru{
+
+float: left;            /* КАК ИЗБАВИТЬСЯ*/
+
+
+}
+
+ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.topmenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: ProximaNova;
+    font-size: 15px;
+    color: #273444;
+}
+
+
+.one .submenu {
+    display: none;
+    background: white;
+}
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+
+.submenu li a {
+  
+    color: black;
+    font-family: ProximaNova;
+    font-size: 10px;
+    color: #273444;
+}
+
+
+/*======================================конец выбор языка=============================================*/
 
   .wrapper {
     display: grid;
@@ -71,9 +135,29 @@ body {
     height: auto ;
     }
 
-.burger{
-    float: right;
-    }
+
+
+#oformit{
+
+    background-color: #d21f26;
+    width: 298px;
+    height: 44px;
+    border-radius: 100px;
+    
+}
+
+
+#kupit{
+    width: 184px;
+    height: 44px;
+    opacity: 0.2;
+    border-radius: 100px;
+    border: solid 2px #4a4a4a;
+    
+    
+}
+
+
 
 .maintext h1{
 
