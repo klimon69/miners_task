@@ -89,7 +89,7 @@ a{
     height: 750px;
     grid-gap: 5px;
     grid-template-columns: 200px 1fr 1fr 100px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 200px 350px 200px;
     grid-template-areas:
     "logotype  request  request burger" 
     ". maintext maintext ."
