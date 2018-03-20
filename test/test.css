@@ -16,13 +16,10 @@ body {
   .maintext {
     grid-area: maintext;
     word-wrap: break-word;
-<<<<<<< HEAD
-    background-color: blue;
-    opacity: 0.5;
+
   }
-=======
-    }
->>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
+
+   
 
   .logotype {
     grid-area: logotype;
@@ -30,30 +27,30 @@ body {
 
   .request {
     grid-area: request;
-<<<<<<< HEAD
+
     position: relative;
-    
+   
     
     padding-top: 50px;
+    padding-left: 500px;
     
     
   }
-=======
-    text-align: right;
+
+    .burger {
+    grid-area: burger;
+    
+     position: relative;
+     padding-top: 50px;
+    z-index: 100;
     }
->>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
 
 
 /*======================================начало выбор языка=============================================*/
 
 
 
-.ru{
 
-float: left;            /* КАК ИЗБАВИТЬСЯ*/
-
-
-}
 
 ul {
     list-style: none; 
@@ -105,12 +102,12 @@ a{
     display: grid;
     height: 750px;
     grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 200px;
     grid-template-rows: 250px 250px 250px;
     grid-template-areas:
-    "logotype  request  request" 
-    ". maintext maintext"
-    ". maintext maintext";
+    "logotype  request  request burger" 
+    ". maintext maintext ."
+    ". maintext maintext .";
     background-color: #fff;
     color: #444;
     }
@@ -133,7 +130,7 @@ a{
     background-color: #d21f26;
     overflow: hidden;
     z-index: 1;
-    grid-column: logotype-start / request-end;
+    grid-column: logotype-start / burger-end;
     grid-row: request-start / maintext-end;
   }
 
@@ -145,7 +142,7 @@ a{
     }
 
 
-<<<<<<< HEAD
+
 
 #oformit{
 
@@ -168,8 +165,8 @@ a{
 }
 
 
-=======
-  .applyfor {
+
+ /* .applyfor {
     display: inline-block;
     vertical-align: top;
     background-color: #d21f26;
@@ -195,18 +192,14 @@ a{
     float: right;*/
 
   .ru {
-    padding-top: 1em;
+    
     float: left;    
     }
 
-  .burger {
-    padding-top: 1em;
-    float: right;
-    padding-right: 5%;
-    }
->>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
+  
 
-  .buyRMC {
+
+  /*.buyRMC {
     opacity: 1;
     color: black;
     padding-right: 7%;
@@ -224,7 +217,7 @@ a{
     }
 
 /*НАЧАЛО ВЫБОР ЯЗЫКА*/
-  ul {
+ /* ul {
    list-style: none; 
    margin: 0;
    padding: 0;
@@ -266,7 +259,7 @@ a{
     font-size: 10px;
     color: #273444;
 }
-
+*/
 /*КОНЕЦ ВЫБОР ЯЗЫКА*/
 
   .maintext h1{

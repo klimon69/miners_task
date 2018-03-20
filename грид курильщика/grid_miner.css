@@ -4,7 +4,7 @@
   
   
   
-  grid-template-areas: "vidos vidos vidos vidos  "
+  grid-template-areas: 
                        "logo . request request "
                        ". . . ."
                        "  maintext maintext maintext ."
@@ -12,7 +12,7 @@
                        "govno govno govno govno ";
 
 
-  grid-template-rows: 20px 150px 220px 420px 200px 2800px;
+  grid-template-rows:  150px 220px 420px 200px 2800px;
   grid-template-columns: repeat(auto-fit, 1fr);
 
   
@@ -22,14 +22,18 @@
 
 
 
+<<<<<<< HEAD
 #page > vidos {
   grid-area: vidos;
 
   
 }
+=======
+>>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
 
 
-#page > logo {
+
+.logo {
   grid-area: logo;
   
 
@@ -39,7 +43,7 @@
 
 
 
-#page > request {
+.request {
   /*align-self: center;   Выравнивание содержимого ячейки по вертикали по центру*/
 
   
@@ -47,7 +51,7 @@
   background-color: #ffa08c;
 }
 
-#page > maintext {
+.maintext {
   grid-area: maintext;
   background-color: #ffff64;
   opacity: 0.5;
@@ -57,13 +61,13 @@
   
 }
 
-#page > social {
+.social {
   grid-area: social;
   background-color: red;
 }
 
 
-#page > email {
+.email {
   grid-area: email;
   background-color: red;
   
@@ -71,7 +75,7 @@
 }
 
 
-#page > govno {
+.govno {
   grid-area: govno;
   background-color: white;
 }
@@ -81,6 +85,7 @@
 
 
 
+<<<<<<< HEAD
 video {
     
     position: fixed;
@@ -91,14 +96,33 @@ video {
     background-color: red;
     
 }
+=======
+>>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
+
+.overlay {
+    background-color: red; /*#d21f26;    /*пиздец костылина*/
+    overflow: hidden;
+    z-index: -11;
+    grid-column: logo-start / request-end;
+    grid-row: request-start / maintext-end;
+  }
+
+  video {
+    /*-webkit-transform: scaleX(1.5);*/
+    position: relative;
+    width: 100%;
+    height: auto ;
+    }
 
 
 
 
 
-
-
+<<<<<<< HEAD
 @media screen and (orientation: portrait), screen and (max-width: 1000px)   {
+=======
+@media screen and (orientation: portrait), screen and (max-width: 1100px)  {
+>>>>>>> 600c4b6158fff06f9537ac10446149be075e0d06
 
 
 
@@ -108,7 +132,7 @@ video {
   display: grid;
   width: 100%;
   
-  grid-template-areas: "vidos . "
+  grid-template-areas: 
                        "logo request "
                        " maintext maintext"
                        "social  social"
@@ -116,12 +140,12 @@ video {
                        "govno govno";
 
 
-  grid-template-rows: 20px 150px 550px 200px 200px 800px;
+  grid-template-rows: 150px 550px 200px 200px 800px;
   grid-template-columns: repeat(auto-fit,  1fr);
   
 }
 
-#page > maintext {
+.maintext {
   grid-area: maintext;
   font-size: 30px;
   opacity: 0.5;
@@ -131,11 +155,11 @@ video {
 }
 
 
-video {
-    
+
+
+  video {
     visibility: hidden;
-    
-}
+    }
 
 
 
