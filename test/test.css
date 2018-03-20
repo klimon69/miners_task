@@ -335,7 +335,8 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
     grid-template-areas:
-    "logotype  request" 
+    "logotype  burger" 
+    "request request" 
     "maintext maintext"
     "maintext maintext";
     background-color: #fff;
