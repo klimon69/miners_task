@@ -1,3 +1,13 @@
+:root {
+  --steel-grey: #79818b;
+  --darkish-blue: #003399;
+  --purpley-grey: #9b9b9b;
+  --black: #333333;
+  --tomato: #eb4340;
+  --lipstick: #d21f26;
+  --dark: #273444;
+  --white: #ffffff;
+}
 
 @font-face {
     font-family: ProximaNova;
@@ -13,6 +23,9 @@ body {
    margin: 0px;
   }
 
+
+/*wrapper*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
   .maintext {
     grid-area: maintext;
     word-wrap: break-word;
@@ -40,8 +53,7 @@ body {
     position: relative;
     float: right;
 }
-/*======================================начало выбор языка=============================================*/
-
+/*================начало выбор языка=============*/
 ul {
     list-style: none; 
     margin: 0;
@@ -82,7 +94,7 @@ a{
 }
 
 
-/*======================================конец выбор языка=============================================*/
+/*==========конец выбор языка===============*/
 
   .wrapper {
     display: grid;
@@ -121,12 +133,10 @@ a{
   }
 
   video {
-    /*-webkit-transform: scaleX(1.5);*/
     position: relative;
     width: 100%;
     height: auto ;
     }
-
 
 #oformit{
     background-color: #d21f26;
@@ -134,7 +144,6 @@ a{
     height: 44px;
     border-radius: 100px;
     }
-
 
 #kupit{
     width: 184px;
@@ -144,102 +153,9 @@ a{
     border: solid 2px #4a4a4a;
     }
 
-
-
- /* .applyfor {
-    display: inline-block;
-    vertical-align: top;
-    background-color: #d21f26;
-    color: #fff;
-    font-family: ProximaNova;
-    font-size: 12px;
-    text-align: center;
-    width: 300px;
-    height: 45px;
-    padding-top: 3em;
-    padding-right: 5em;
-    border-radius: 100px;
-    }
-
-/*    padding-right: 9%;
-    width: 300px;
-    height: 45px;
-    border-radius: 100px;
-    font-family: ProximaNova;
-    font-size: 12px;
-    text-align: center;
-    color: #273444;
-    float: right;*/
-
   .ru {
-    
     float: left;    
     }
-
-  
-
-
-  /*.buyRMC {
-    opacity: 1;
-    color: black;
-    padding-right: 7%;
-    padding-top: 1em;
-    font-family: ProximaNova;
-    font-size: 12px;
-    text-align: center;
-    color: #273444;
-    width: 180px;
-    height: 45px;
-    opacity: 0.2;
-    border-radius: 100px;
-    border: solid 2px #4a4a4a;
-    float: right;
-    }
-
-/*НАЧАЛО ВЫБОР ЯЗЫКА*/
- /* ul {
-   list-style: none; 
-   margin: 0;
-   padding: 0;
-   }
-
-
-.topmenu > li {
-    display: inline-block;
-    margin-right: 20px;
-    position: relative;
-}
-
-
-a{
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    outline: none;
-    font-family: ProximaNova;
-    font-size: 15px;
-    color: #273444;
-}
-
-
-.one .submenu {
-    display: none;
-    background: white;
-}
-
-.one ul li:hover .submenu {
-    display: block;
-}
-
-
-.submenu li a {
-  
-    color: black;
-    font-family: ProximaNova;
-    font-size: 10px;
-    color: #273444;
-}
-*/
 /*КОНЕЦ ВЫБОР ЯЗЫКА*/
 
   .maintext h1{
@@ -279,6 +195,7 @@ a{
     }
 
 /*wrapper1 ссылки и рассылки*/
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
   .leftpodval {
     grid-area: leftpodval;
     }
@@ -313,14 +230,388 @@ a{
     }
 
 /*wrapper2 что такое RMC*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
   .wrapper2 {
-    height: 750px;
+    height: 900px;
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 1fr 1fr;
-    background-color: #d21fff;
+    grid-template-rows: 200px 150px 570px;
+    grid-template-columns: 1fr 765px 1fr;
+    background-color: var(--white);
     color: #444;
+     grid-template-areas:
+    ". wrapper2text ."
+    ". panel ."
+    "rombs rombs rombs";
     }
+
+  .rombs {
+    grid-area: rombs;  
+    }
+
+  .wrapper2text {
+    grid-area: wrapper2text;
+    }
+  
+.RMC {
+  height: 100px;
+  font-family: ProximaNova;
+  font-size: 70px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #273444;
+  color: var(--dark);
+  padding-top: 30px;
+  }
+
+.wrapper2text .about {
+  width: 765px;
+  height: 30px;
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #273444;
+  color: var(--dark);
+  }
+
+.panel{
+  grid-area: panel;
+  }
+
+.play{
+  font-family: ProximaNova;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 100px;
+  }  
+
+.text_play{
+  float: right;
+  padding-top: 15px;
+  padding-right: 100px;
+  }
+
+.present{
+  font-family: ProximaNova;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  }
+
+.text_present{
+  float: right;
+  padding-top: 15px;
+  padding-right: 45px;
+  }
+
+.whitpaper{
+  font-family: ProximaNova;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  }
+
+.text_whitpaper{
+  float: right;
+  padding-top: 15px;
+  padding-right: 60px;
+  }
+
+
+
+.rombs .romb2{
+  margin-left: 17%;
+  margin-top: -15%;
+  }
+
+.rombs .romb3{
+
+margin-left: 38%;
+margin-top: -22%;
+
+
+}
+
+.rombs .romb4{
+
+margin-left: 58%;
+margin-top: -14%;
+
+
+}
+
+
+.romb_solid1{
+  width: 200px;
+  height: 200px;
+  transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.05);
+    border: 1px solid var(--lipstick) ;
+    margin-left: 250px;
+        position: absolute;
+}
+
+
+.romb_dashed1{
+
+    width: 200px;
+    height: 200px;
+    transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.15);
+    border: 1px dashed var( --purpley-grey) ;
+    margin-left: 250px;
+    margin-top: 150px;
+  position: relative;
+
+}
+
+.num1{
+
+
+font-family: ProximaNovaLight;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: red;
+  margin-top: -180px;
+  margin-left: 330px;
+
+}
+
+.romb1_text{
+
+ width: 200px;
+ 
+  margin-left: 270px;
+  font-family: ProximaNovaLight;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  margin-top: 9px;
+}
+
+
+.romb_solid2{
+  width: 200px;
+  height: 200px;
+  transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.05);
+    border: 1px solid var(--lipstick) ;
+    margin-left: 330px;
+        position: absolute;
+}
+
+
+.romb_dashed2{
+
+    width: 200px;
+    height: 200px;
+    transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.15);
+    border: 1px dashed var( --purpley-grey) ;
+    margin-left: 330px;
+    margin-top: 200px;
+  position: relative;
+
+}
+
+
+
+.num2{
+  
+
+font-family: ProximaNovaLight;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: red;
+  margin-top: -185px;
+  margin-left: 405px;
+
+}
+
+.romb2_text{
+
+ width: 200px;
+ 
+  margin-left: 347px;
+  font-family: ProximaNovaLight;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  margin-top: 9px;
+}
+
+
+
+.romb_solid3{
+  width: 200px;
+  height: 200px;
+  transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.05);
+    border: 1px solid var(--lipstick) ;
+    margin-left: 330px;
+        position: absolute;
+}
+
+
+.romb_dashed3{
+
+    width: 200px;
+    height: 200px;
+    transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.15);
+    border: 1px dashed var( --purpley-grey) ;
+    margin-left: 330px;
+    margin-top: 200px;
+  position: relative;
+
+}
+
+
+
+.num3{
+  
+
+font-family: ProximaNovaLight;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: red;
+  margin-top: -185px;
+  margin-left: 405px;
+
+}
+
+.romb3_text{
+
+ width: 200px;
+ 
+  margin-left: 347px;
+  font-family: ProximaNovaLight;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  margin-top: 9px;
+}
+
+
+
+
+.romb_solid4{
+  width: 200px;
+  height: 200px;
+  transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.05);
+    border: 1px solid var(--lipstick) ;
+    margin-left: 330px;
+        position: absolute;
+}
+
+
+.romb_dashed4{
+
+    width: 200px;
+    height: 200px;
+    transform: rotate(135deg)
+    skew(18deg, 18deg)
+    scale(1.15);
+    border: 1px dashed var( --purpley-grey) ;
+    margin-left: 330px;
+    margin-top: 200px;
+  position: relative;
+
+}
+
+
+.num4{
+  
+
+font-family: ProximaNovaLight;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: red;
+  margin-top: -185px;
+  margin-left: 405px;
+
+}
+
+.romb4_text{
+
+ width: 200px;
+ 
+  margin-left: 347px;
+  font-family: ProximaNovaLight;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  margin-top: 9px;
+}
+
+/*wrapper3*/
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------another resolution-------------------------------------*/
