@@ -16,10 +16,7 @@ body {
   .maintext {
     grid-area: maintext;
     word-wrap: break-word;
-
-  }
-
-   
+    }
 
   .logotype {
     grid-area: logotype;
@@ -27,30 +24,23 @@ body {
 
   .request {
     grid-area: request;
-
     position: relative;
-   
-    
     padding-top: 50px;
-    padding-left: 500px;
-    
-    
   }
 
     .burger {
     grid-area: burger;
-    
-     position: relative;
-     padding-top: 50px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 5px;
     z-index: 100;
     }
 
-
+.buttonbox {
+    position: relative;
+    float: right;
+}
 /*======================================начало выбор языка=============================================*/
-
-
-
-
 
 ul {
     list-style: none; 
@@ -65,7 +55,6 @@ ul {
     position: relative;
 }
 
-
 a{
     display: block;
     padding: 10px 15px;
@@ -76,19 +65,16 @@ a{
     color: #273444;
 }
 
-
 .one .submenu {
     display: none;
     background: white;
 }
 
-.one ul li:hover .submenu {
+.one ul li: hover .submenu {
     display: block;
 }
 
-
 .submenu li a {
-  
     color: black;
     font-family: ProximaNova;
     font-size: 10px;
@@ -102,8 +88,8 @@ a{
     display: grid;
     height: 750px;
     grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 200px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 200px 1fr 1fr 100px;
+    grid-template-rows: 200px 350px 200px;
     grid-template-areas:
     "logotype  request  request burger" 
     ". maintext maintext ."
@@ -142,16 +128,12 @@ a{
     }
 
 
-
-
 #oformit{
-
     background-color: #d21f26;
     width: 298px;
     height: 44px;
     border-radius: 100px;
-    
-}
+    }
 
 
 #kupit{
@@ -160,9 +142,7 @@ a{
     opacity: 0.2;
     border-radius: 100px;
     border: solid 2px #4a4a4a;
-    
-    
-}
+    }
 
 
 
@@ -355,7 +335,8 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
     grid-template-areas:
-    "logotype  request" 
+    "logotype  burger" 
+    "request request" 
     "maintext maintext"
     "maintext maintext";
     background-color: #fff;
