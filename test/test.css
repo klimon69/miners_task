@@ -575,9 +575,7 @@ font-family: ProximaNovaLight;
 
 
 .num4{
-  
-
-font-family: ProximaNovaLight;
+  font-family: ProximaNovaLight;
   font-size: 35px;
   font-weight: 300;
   font-style: normal;
@@ -593,8 +591,7 @@ font-family: ProximaNovaLight;
 
 .romb4_text{
 
- width: 200px;
- 
+  width: 200px;
   margin-left: 347px;
   font-family: ProximaNovaLight;
   font-size: 15px;
