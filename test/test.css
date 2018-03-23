@@ -225,10 +225,10 @@ a{
 /*wrapper2 что такое RMC*/
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
   .wrapper2 {
-    height: 900px;
+    height: 1000px;
     display: grid;
     grid-gap: 5px;
-    grid-template-rows: 200px 150px 570px;
+    grid-template-rows: 300px 200px 500px;
     grid-template-columns: 1fr 765px 1fr;
     background-color: var(--white);
     color: #444;
@@ -258,7 +258,7 @@ a{
   text-align: center;
   color: #273444;
   color: var(--dark);
-  padding-top: 30px;
+  padding-top: 100px;
   }
 
 .wrapper2text .about {
@@ -654,6 +654,7 @@ a{
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   }
+
 .wrapper4 .darker {
   height: 900px;
   background-attachment: relative;
@@ -741,6 +742,22 @@ a{
 
 /*wrapper5*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.wrapper5 {
+  height: 900px;
+  background-color: var(--black);
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
