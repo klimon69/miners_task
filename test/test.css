@@ -41,7 +41,7 @@ body {
     grid-area: request;
     position: relative;
     padding-top: 50px;
-  }
+    }
 
     .burger {
     grid-area: burger;
@@ -112,10 +112,8 @@ a{
     color: #444;
     }
 
-  .box {
+  .wrapper .box {
     color: #fff;
-    border-radius: 5px;
-    font-size: 150%;
     z-index: 2;
     }
 
@@ -124,7 +122,7 @@ a{
     overflow: hidden;
     z-index: 1;
     grid-column: logotype-start / burger-end;
-    grid-row: request-start / maintext-end;
+    grid-row: burger-start / maintext-end;
   }
 
   video {
@@ -452,8 +450,6 @@ a{
   color: #273444;
   }
 
-
-
 .romb_solid3 {
   width: 200px;
   height: 200px;
@@ -547,10 +543,10 @@ a{
 /*wrapper3*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
   .wrapper3 {
-    height: 900px;
+    height: 1200;
     display: grid;
-    grid-gap: 5px;
-    grid-template-rows: 450px 450px;
+    grid-gap: 70px;
+    grid-template-rows: 600px 600px;
     grid-template-columns: 1fr 1fr;
     background-color: var(--white);
     color: #444;
@@ -559,35 +555,168 @@ a{
     "multiclet_left multiclet_right";
     }
 
-.miner_left {
+  .wrapper3 h1 {
+  height: 33px;
+  font-family: ProximaNova;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d21f26;
+  color: var(--lipstick);
+  } 
+
+.wrapper3 h2 {
+  font-family: ProximaNovaLight;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: left;
+  color: #273444;
+  }
+
+  .wrapper3 h3 {
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  color: var(--dark);
+  }  
+
+  .wrapper3 .paremeters {
+  height: 33px;
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--dark);
+  } 
+
+  .wrapper3 a {
+  height: 22px;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--lipstick);
+  }
+
+  .wrapper3 .content {
+  width: 550px;  
+  }
+
+  .wrapper3 .left {
+  float: right;
+  }
+
+  .miner_left {
   grid-area: miner_left;  
   }
 
-.multiclet_right {
+  .miner_right {
+  grid-area: miner_right;  
+  }
+
+  .miner_left img {
+  float: right;
+  }
+
+  .multiclet_right {
   grid-area: multiclet_right;
   }
 
-.miner_right h2 {
-  grid-area: miner_h1; 
-  width: 300px;
-  font-family: ProximaNovaLight;
-  font-size: 50px;
-  font-weight: 300;
-  text-align: left;
-  color: #273444;
+  .multiclet_left {
+  grid-area: multiclet_left;
+  height: 500px;
   }
 
-.multiclet_left h2 {
-  grid-area: multiclet_h1;
-  width: 300px;
-  font-family: ProximaNovaLight;
-  font-size: 50px;
-  font-weight: 300;
-  text-align: left;
-  color: #273444;
+ /*wrapper4*/
+ /*------------------------------------------------------------------------------------------------------------------------------------------*/
+  .wrapper4 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px;
+  background-color: var(--dark);
+  opacity: 0.7;
+    grid-template-areas:
+    "MiningCenter MiningCenter MiningCenter"
+    "MiningResource MiningResource MiningResource";
   }
 
-/*wrapper4*/
+  .MiningCenter { grid-area: MiningCenter; z-index: 2}
+  .MiningResource { grid-area: MiningResource; z-index: 2}
+ 
+  .wrapper4 .Bitmap {
+    position: relative;
+    width: 100%;
+    height: height: calc(100% + 300px);
+  }
+
+  .wrapper4  .overlay {
+    z-index: 1;
+    grid-column: MiningCenter-start / MiningCenter-end;
+    grid-row: MiningCenter-start / MiningResource-end;
+  }
+
+.wrapper4 h1 {
+  width: 32px;
+  height: 33px;
+  font-family: ProximaNova;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--lipstick);
+  } 
+
+.wrapper4 h2 {
+  width: 713px;
+  height: 122px;
+  font-family: ProximaNova;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+  }
+
+.wrapper4 h3 {
+  width: 705px;
+  height: 66px;
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+  }
+
+/*wrapper5*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
