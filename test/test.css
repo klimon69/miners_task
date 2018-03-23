@@ -647,35 +647,34 @@ a{
 
  /*wrapper4*/
  /*------------------------------------------------------------------------------------------------------------------------------------------*/
-  .wrapper4 {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 350px 350px;
+.wrapper4 {
+  height: 900px;
+  background-attachment: relative;
+  background-image: url(img/bitmap.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  }
+.wrapper4 .darker {
+  height: 900px;
+  background-attachment: relative;
+  background-size: 100vw 100vh;
   background-color: var(--dark);
-  opacity: 0.7;
-    grid-template-areas:
-    "MiningCenter MiningCenter MiningCenter"
-    "MiningResource MiningResource MiningResource";
+  opacity: 0.8;
   }
 
-  .MiningCenter { grid-area: MiningCenter; z-index: 2}
-  .MiningResource { grid-area: MiningResource; z-index: 2}
- 
-  .wrapper4 .Bitmap {
-    position: relative;
-    width: 100%;
-    height: height: calc(100% + 300px);
-  }
+.MiningCenter {
+  margin: 0 auto;
+  padding-top: 150px;
+  width: 750px;
+}
 
-  .wrapper4  .overlay {
-    z-index: 1;
-    grid-column: MiningCenter-start / MiningCenter-end;
-    grid-row: MiningCenter-start / MiningResource-end;
-  }
+.MiningResource {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 750px;
+}
 
 .wrapper4 h1 {
-  width: 32px;
   height: 33px;
   font-family: ProximaNova;
   font-size: 27px;
@@ -689,7 +688,7 @@ a{
   } 
 
 .wrapper4 h2 {
-  width: 713px;
+  width: 700px;
   height: 122px;
   font-family: ProximaNova;
   font-size: 50px;
@@ -703,7 +702,7 @@ a{
   }
 
 .wrapper4 h3 {
-  width: 705px;
+  width: 700px;
   height: 66px;
   font-family: ProximaNova;
   font-size: 22px;
@@ -715,6 +714,30 @@ a{
   text-align: center;
   color: var(--white);
   }
+
+.wrapper4 p {
+  width: 230px;
+  height: 66px;
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  }
+
+  .MiningResource div {
+    width: 250px;
+    float: left;
+  }
+
+  .MiningResource img {
+    padding-left: 90px;
+  }
+
 
 /*wrapper5*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
