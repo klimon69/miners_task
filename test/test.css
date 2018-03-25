@@ -332,31 +332,43 @@ a{
   margin:0 auto;
   width: 1400px;
   height: 300px;
-  overflow:hidden;
+  position: relative;
+  
+  top: 25%;
+
+  
   }
 
-.rombs .romb1 {
+.romb .romb1 {
   width: 300px;
+  height: 200px;
   position: relative; 
   float: left;
+  padding: 0;
   }
 
-.rombs .romb2 {
+.romb .romb2 {
   width: 300px;
   position: relative;
   float: left;
+  bottom: 20%;
+  left: 5%;
   }
 
-.rombs .romb3 {
+.romb .romb3 {
   width: 300px;
   position: relative;
-  float: left;
+  left: 10%;
+   float: left;
 }
 
-.rombs .romb4 {
+.romb .romb4 {
   width: 300px;
   position: relative;
   float: left;
+  left: 15%;
+  bottom: 20%;
+  right: 0;
 }
 
 .romb_solid1 {
@@ -365,17 +377,20 @@ a{
   transform: rotate(135deg)
   skew(18deg, 18deg)
   scale(1.05);
-    border: 1px solid var(--lipstick) ;
-    position: relative;
+  border: 1px solid var(--lipstick) ;
+  position: relative;
+    
     }
 
 
 .romb_dashed1 {
   width: 200px;
   height: 200px;
+  transform: rotate(180deg)
   scale(1.15);
-    border: 1px dashed var( --purpley-grey) ;
-    position: relative;
+  border: 1px dashed var( --purpley-grey) ;
+   position: relative;
+    
     }
 
 .num1 {
@@ -386,23 +401,27 @@ a{
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  text-align: left;
+  text-align: justify;
   color: red;
-  position: relative;
+  position: absolute;
+  top: 10%;
+  left: 25%;
   }
 
 .romb1_text {
-  width: 200px;
+  width: 100px;
   font-family: ProximaNovaLight;
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #273444;
-  position: relative;
+  position: absolute;
+  top: 25%;
+  left: 15%;
   }
 
 
@@ -410,19 +429,21 @@ a{
   width: 200px;
   height: 200px;
   transform: rotate(135deg)
-  skew(18deg, 18deg);
-    scale(1.05);
-    border: 1px solid var(--lipstick) ;
-    position: relative;
+  skew(18deg, 18deg)
+  scale(1.05);
+  border: 1px solid var(--lipstick) ;
+  position: relative;
     }
 
 .romb_dashed2 {
   width: 200px;
   height: 200px;
-    scale(1.15);
-    padding: 2px;
-    border: 1px dashed var( --purpley-grey) ;
-    position: relative;
+  transform: rotate(180deg)
+  scale(1.15);
+ 
+  border: 1px dashed var( --purpley-grey) ;
+  position: relative;
+
     }
 
 .num2 {
@@ -433,14 +454,16 @@ a{
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  text-align: left;
   color: red;
+  position: absolute;
+  top: 10%;
+  left: 25%;
   }
 
 .romb2_text {
   width: 200px;
   font-family: ProximaNovaLight;
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -448,6 +471,9 @@ a{
   letter-spacing: normal;
   text-align: left;
   color: #273444;
+  position: absolute;
+  top: 35%;
+  left: 5%;
   }
 
 .romb_solid3 {
@@ -455,18 +481,20 @@ a{
   height: 200px;
   transform: rotate(135deg)
   skew(18deg, 18deg)
-    scale(1.05);
-    border: 1px solid var(--lipstick) ;
-    position: relative;
+  scale(1.05);
+  border: 1px solid var(--lipstick) ;
+  position: relative;
 }
 
 
 .romb_dashed3 {
     width: 200px;
     height: 200px;
+    transform: rotate(180deg)
     scale(1.15);
-    border: 1px dashed var( --purpley-grey) ;
-    position: relative;
+  
+  border: 1px dashed var( --purpley-grey) ;
+  position: relative;
     }
 
 
@@ -480,12 +508,15 @@ a{
   letter-spacing: normal;
   text-align: left;
   color: red;
+  position: absolute;
+  top: 10%;
+  left: 25%;
   }
 
 .romb3_text{
   width: 200px;
   font-family: ProximaNovaLight;
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -493,6 +524,9 @@ a{
   letter-spacing: normal;
   text-align: left;
   color: #273444;
+  position: absolute;
+  top: 35%;
+  left: 5%;
   }
 
 .romb_solid4{
@@ -500,18 +534,20 @@ a{
   height: 200px;
   transform: rotate(135deg)
   skew(18deg, 18deg)
-    scale(1.05);
-    border: 1px solid var(--lipstick) ;
-    position: relative;
+  scale(1.05);
+  border: 1px solid var(--lipstick) ;
+  position: relative;
   }
 
 
 .romb_dashed4{
   width: 200px;
   height: 200px;
-    scale(1.15);
-    border: 1px dashed var( --purpley-grey) ;
-    position: relative;
+  transform: rotate(180deg)
+  scale(1.15);
+ 
+  border: 1px dashed var( --purpley-grey) ;
+  position: relative;
   }
 
 
@@ -523,20 +559,23 @@ a{
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: red;
+  position: absolute;
+  top: 10%;
+  left: 25%;
   }
 
 .romb4_text{
   width: 200px;
   font-family: ProximaNovaLight;
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: normal;
-  text-align: left;
+  text-align: right;
   color: #273444;
   }
 
