@@ -873,9 +873,6 @@ input[value]{
     ". member_img_two rmc_garant .";
   }
 
-
-
-
 .club_image {
 
        grid-area: club_image;
@@ -922,8 +919,6 @@ input[value]{
 
     }
 
-    
-
    .rmc_garant {
 
        grid-area: rmc_garant;
@@ -962,12 +957,10 @@ input[value]{
      letter-spacing: normal;
      text-align: left;
      color: var(--lipstick);
-
-  } 
+     } 
 
 
 .wrapper5 h3 {
-
      width: 700px;
      height: 66px;
      font-family: ProximaNovaLight;
@@ -979,11 +972,10 @@ input[value]{
      letter-spacing: normal;
      text-align: left;
      color: var(--white);
-  }
+     }
 
 
   .wrapper5 h5 {
-
     width: 700px;
     height: 66px;
     font-family: ProximaNovaLight;
@@ -1012,21 +1004,16 @@ input[value]{
     background: url(img/01.png) left center no-repeat; /* Параметры фона */
     padding-left: 64px; /* Смещаем текст вправо */ 
     padding-top: 1px;
-
-}
+    }
 
 
 
 #ul_chip{
-
     list-style: none; 
     background: url(img/02.png) left center no-repeat; 
     padding-left: 64px;
     padding-top: 1px; 
-
-    
-
-}
+    }
 
 
 #kupit_rmc{
@@ -1039,7 +1026,6 @@ input[value]{
     font-size: 17px;
     position: relative;
     }
-
 
 
 .member_img img{
@@ -1060,14 +1046,11 @@ float: right;
 
 }
 
-
 .submenu_text{
 
 padding-left: 65px;
 position: relative;
 bottom: 50px;
-
-
 }
 
 
@@ -1078,18 +1061,102 @@ bottom: 50px;
 
 
 
-.wrapper6{
-
-
-width: 100%;
-height: 1500px;
-
-
+.wrapper6 {
+  height: 2000px;
+  display: grid;
+  grid-gap: 70px;
+  background-color: var(--white);
+    grid-template-rows: repeat(7, 200px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "ProjectPlan ."
+    "December2016_left December2016_right" 
+    "April2017_left April2017_right"
+    "August2017_left August2017_right" 
+    "September2017_left September2017_right"
+    "July2018_left July2018_right"
+    "December2018_left December2018_right";
 }
 
+ .ProjectPlan div{
+  float: right;
+  padding-top: 50px;
+  width: 470px;
+  height: 70px;
+  font-family: ProximaNova;
+  font-size: 70px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+ }
 
+ .ProjectPlan { grid-area: ProjectPlan; }
+ .December2016_left { grid-area:  December2016_left; } .December2016_right { grid-area:  December2016_right; }
+ .April2017_left { grid-area: April2017_left;}  .April2017_right { grid-area: April2017_right;}
+ .August2017_left { grid-area: August2017_left;}  .August2017_right { grid-area: August2017_right;}
+ .September2017_left { grid-area: September2017_left;}  .September2017_right { grid-area: September2017_right;}
+ .July2018_left { grid-area:  July2018_left;}  .July2018_right { grid-area: July2018_right;}
+ .December2018_left { grid-area: December2018_left;}  .December2018_right { grid-area: December2018_right;}
 
+ .December2016_left .container, .April2017_left .container, .August2017_left .container, .September2017_left .container, .July2018_left .container, .December2018_left .container, .ProjectPlan div {float: right; display: inline-block;}
+ .December2016_right .container, .April2017_right .container, .August2017_right .container, .September2017_right .container, .July2018_right .container, .December2018_right .container {float: left;}
 
+  .wrapper6 .year {
+  position: relative;
+  float: right;
+  width: 42px;
+  height: 30px;
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d21f26;
+  color: var(--lipstick);
+  }
+
+  .wrapper6 .mounth {
+  position: relative;
+  display: inline;
+  font-family: ProximaNova;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  color: var(--dark);
+  }
+
+  .wrapper6 .div {
+  width: 561px;
+  height: 123px;
+  font-family: ProximaNova;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  color: var(--dark);
+  } 
+
+.wrapper .line{
+  width: 1100px;
+  height: 1px;
+  background-color: #e4e6eb;
+}
 /*wrapper7*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 
