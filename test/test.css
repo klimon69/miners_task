@@ -136,6 +136,9 @@ a{
     width: 298px;
     height: 44px;
     border-radius: 100px;
+    color: white;
+    font-family: ProximaNova;
+    font-size: 15px;
     }
 
 #kupit{
@@ -189,6 +192,65 @@ a{
 
 /*wrapper1 ссылки и рассылки*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+.inputemail input{
+
+  width: 266px;
+  height: 40px;
+  color: white;
+  padding-top: 5px;
+  float: left;
+  border-radius: 100px;
+  background-color : rgba(0, 255, 255, 0.23);
+  border: 0px solid white ;
+  box-shadow: none ;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none; 
+  
+ 
+}
+
+
+
+input[value]{
+
+
+ font-family: ProximaNovaLight;
+ font-size: 20px;
+ text-align: center;
+ outline:none;
+
+}
+
+
+.sign{
+  
+  float: left;
+  width: 180px;
+  height: 25px;
+  color: black;
+  padding-bottom: 20px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: white;
+  
+}
+
+
+.sign h4{
+
+  font-size: 13px;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: black;
+
+}
+
+
+
   .leftpodval {
     grid-area: leftpodval;
     }
@@ -199,12 +261,25 @@ a{
 
   .leftpodval h4 {
     grid-area: leftpodval;
-    padding-left: 10vw;   
+    padding-left: 10vw;
+    font-family: ProximaNovaLight;  
+    color: white; 
+    padding-top: 20px;
+    letter-spacing: 2px;
     }
 
   .rightpodval {
     grid-area: rightpodval;
+    padding-top: 30px;
     padding-left: 10vw;   
+    padding-right: 100px;
+    }
+
+    .rightpodval {
+    color: white;
+    font-size: 20px;
+    font-family: ProximaNovaLight;
+    letter-spacing: 2px;
     }
 
   .wrapper1 {
@@ -798,110 +873,128 @@ a{
     ". member_img_two rmc_garant .";
   }
 
+
+
+
 .club_image {
-    grid-area: club_image;
-    word-wrap: break-word;
+  
+       grid-area: club_image;
+       word-wrap: break-word;
     }
 
 .club {
-    grid-area: club;
-    word-wrap: break-word;
+
+       grid-area: club;
+       word-wrap: break-word;
+
     }
 
   .member_img {
-    grid-area: member_img;
-    padding-top: 50px;
-    padding-left: 30px;
+
+       grid-area: member_img;
+       padding-top: 50px;
+       padding-right: 200px;
 
     }
 
 
     .btn {
-    grid-area: btn;
+
+       grid-area: btn;
     
 
     }
 
+
     .member_img2 {
-    grid-area: member_img_two;
-    padding-top: 50px;
-    padding-left: 30px;
+
+       grid-area: member_img_two;
+       padding-top: 50px;
+       padding-right: 200px;
     }
 
 
   .member_get {
-    grid-area: member_get;
-    position: relative;
-    padding-top: 50px;
+
+       grid-area: member_get;
+       position: relative;
+       padding-top: 50px;
 
     }
 
     
 
    .rmc_garant {
-    grid-area: rmc_garant;
-    position: relative;
-    padding-top: 50px;
+
+       grid-area: rmc_garant;
+       position: relative;
+       padding-top: 50px;
     }
  
    .wrapper5 h1 {
-  font-family: ProximaNovaLight;
-  font-size: 50px;
-  font-weight: 300;
-  text-align: left;
-  color: #ffffff;
+
+      font-family: ProximaNovaLight;
+      font-size: 50px;
+      font-weight: 300;
+      text-align: left;
+      color: #ffffff;
   }
 
   .wrapper5 h2 {
-  font-family: ProximaNovaLight;
-  font-size: 35px;
-  font-weight: 300;
-  text-align: left;
-  color: #ffffff;
+
+     font-family: ProximaNovaLight;
+     font-size: 35px;
+     font-weight: 300;
+     text-align: left;
+     color: #ffffff;
+
   }
 
   .wrapper5 h4 {
-  height: 33px;
-  font-family: ProximaNova;
-  font-size: 27px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.22;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--lipstick);
+
+     height: 33px;
+     font-family: ProximaNova;
+     font-size: 27px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.22;
+     letter-spacing: normal;
+     text-align: left;
+     color: var(--lipstick);
 
   } 
 
 
 .wrapper5 h3 {
-  width: 700px;
-  height: 66px;
-  font-family: ProximaNovaLight;
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--white);
+
+     width: 700px;
+     height: 66px;
+     font-family: ProximaNovaLight;
+     font-size: 18px;
+     font-weight: 300;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 2.2;
+     letter-spacing: normal;
+     text-align: left;
+     color: var(--white);
   }
 
 
   .wrapper5 h5 {
-  width: 700px;
-  height: 66px;
-  font-family: ProximaNovaLight;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--white);
+
+    width: 700px;
+    height: 66px;
+    font-family: ProximaNovaLight;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
   }
 
 
@@ -915,7 +1008,7 @@ a{
 #ul_security {
 
 
-list-style: none; /* Убираем исходные маркеры */
+    list-style: none; 
     background: url(img/01.png) left center no-repeat; /* Параметры фона */
     padding-left: 64px; /* Смещаем текст вправо */ 
     padding-top: 1px;
@@ -926,8 +1019,8 @@ list-style: none; /* Убираем исходные маркеры */
 
 #ul_chip{
 
-list-style: none; /* Убираем исходные маркеры */
-    background: url(img/02.png) left center no-repeat; /* Параметры фона */
+    list-style: none; 
+    background: url(img/02.png) left center no-repeat; 
     padding-left: 64px;
     padding-top: 1px; 
 
@@ -948,6 +1041,24 @@ list-style: none; /* Убираем исходные маркеры */
     }
 
 
+
+.member_img img{
+  
+  float: right;
+}
+
+
+.member_img2 img{
+
+  float: right;
+}
+
+
+#club_content{
+
+float: right;
+
+}
 
 /*--------------------------------------------------------------------------------------------*/
 
