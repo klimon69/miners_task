@@ -1102,6 +1102,8 @@ height: 1500px;
   height: 800px;
   background-color: white;
   position: relative;
+
+
 }
 
 
@@ -1123,8 +1125,8 @@ height: 1500px;
   margin: 0 auto;
   height: auto;
   position: relative;
-  top: -800px;
-  left: 20%;
+  top: -900px;
+  left: 22%;
   float: left;
 
 }
@@ -1134,9 +1136,15 @@ height: 1500px;
 #main h1 { 
   text-align: center;
   font-size: 70px;
-  font-family: ProximaNovaLight;
   position: relative;
-  top: 0;
+  
+  text-align: center;
+  font-family: ProximaNovaLight;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
   
   
 }
@@ -1225,6 +1233,7 @@ color: red;
 
 
 .prev-slide {
+  height: 100px;
   background: url(img/arrow-big.png) no-repeat;
   left: -100px;
   float: left;
@@ -1234,9 +1243,11 @@ color: red;
 
 }
 .next-slide {
-  top: -50%;
+  
   float: right;
   right: -100px;
+  height: 100px;
+  top: 32%;
   background: url(img/arrow-big.png) no-repeat;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -1263,6 +1274,179 @@ color: red;
   line-height: 35px;
   
 }
+
+
+
+/*wrapper8*/
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.wrapper8 {
+  display: grid;
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 250px 250px 250px 250px 50px ;
+    grid-template-areas:
+    ". . . ."
+    "title title . . " 
+    "logo1 logo2 logo3 logo4" 
+    "logo5 logo6 logo7 logo8"
+    "logo9 logo10 logo11 logo12"
+    ". . . .";
+    position: absolute;
+   
+
+  }
+
+
+
+
+  .title {
+
+       grid-area: title;
+       
+
+    }
+
+
+    .title h1{
+
+     text-align: center;
+     font-size: 70px;
+     font-family: ProximaNovaLight;
+     letter-spacing: 5px;
+     position: relative;
+     font-weight: 300;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 2.2;
+
+    }
+
+
+  .logo1{
+     
+     grid-area: logo1;
+     background: url(assets/logos/logos-assets/rbk.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+     
+
+  }
+
+
+  .logo2{
+
+     grid-area: logo2;
+     background: url(assets/logos/logos-assets/ria.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo3{
+
+     grid-area: logo3;
+     background: url(assets/logos/logos-assets/Insider.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo4{
+
+     grid-area: logo4;
+     background: url(assets/logos/logos-assets/novayagazeta.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo5{
+
+     grid-area: logo5;
+     background: url(assets/logos/logos-assets/cryptochan.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo6{
+
+     grid-area: logo6;
+     background: url(assets/logos/logos-assets/finanz.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo7{
+
+     grid-area: logo7;
+     background: url(assets/logos/logos-assets/rns.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo8{
+
+     grid-area: logo8;
+     background: url(assets/logos/logos-assets/bloomberg.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo9{
+
+     grid-area: logo9;
+     background: url(assets/logos/logos-assets/bitcom.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo10{
+
+     grid-area: logo10;
+     background: url(assets/logos/logos-assets/investopedia.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+  .logo11{
+
+     grid-area: logo11;
+     background: url(assets/logos/logos-assets/rucoin.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+
+  }
+
+
+
+  .logo12{
+  
+       grid-area: logo12;
+       background: url(assets/logos/logos-assets/vesti.png) no-repeat;
+     background-size: 50%;
+     background-position: center;
+    }
 
 
 
