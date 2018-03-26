@@ -227,7 +227,7 @@ input[value]{
   
   float: left;
   width: 180px;
-  height: 25px;
+  height: 40px;
   color: black;
   padding-bottom: 20px;
   text-align: center;
@@ -333,7 +333,7 @@ input[value]{
   text-align: center;
   color: #273444;
   color: var(--dark);
-  padding-top: 100px;
+  padding-top: 20px;
   }
 
 .wrapper2text .about {
@@ -362,7 +362,7 @@ input[value]{
   height: 50px;
   float: left;
   padding-top: 20px;
-  padding-left: 100px;
+  
   }  
 
 .text_play{
