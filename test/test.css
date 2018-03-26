@@ -877,7 +877,7 @@ input[value]{
 
 
 .club_image {
-  
+
        grid-area: club_image;
        word-wrap: break-word;
     }
@@ -1057,6 +1057,16 @@ input[value]{
 #club_content{
 
 float: right;
+
+}
+
+
+.submenu_text{
+
+padding-left: 65px;
+position: relative;
+bottom: 50px;
+
 
 }
 
