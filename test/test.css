@@ -1953,7 +1953,8 @@ input[value]{
 
 .QuestionsHead {
   margin: 0 auto;
-  width: 80vw;
+  width: 70vw;
+  max-width: 900px;
   height: 50px;
   font-family: ProximaNova;
   font-size: 20px;
@@ -1966,11 +1967,12 @@ input[value]{
   color: var(--dark);
   }
 
-.QuestionBottom {
+.QuestionsBottom {
   margin: 0 auto;
-  padding-top: 100px;
-  width: 80vw;
-  height: inline;
+  width: 70vw;
+  max-width: 900px;
+  height: 50px;
+  padding-top: 50px;
   font-family: ProximaNova;
   font-size: 17px;
   font-weight: 300;
@@ -1979,17 +1981,18 @@ input[value]{
   line-height: 1.59;
   letter-spacing: normal;
   text-align: center;
-  color: #273444;
   color: var(--dark);
   }
 
 .QuestionsContentBox {
   margin: 0 auto;
-  width: 750px;
+  width: 70vw;
+  max-width: 900px;
+  height: 50px;
   }
 
 .QuestionsContent{
-  width: 250px;
+  width: 150px;
   float: left;
   }
 
@@ -2003,7 +2006,7 @@ input[value]{
   font-stretch: normal;
   line-height: 1.77;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: var(--dark);
   }
 
@@ -2017,7 +2020,8 @@ input[value]{
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.9px;
-  text-align: center;
+  text-align: left;
+  text-transform: uppercase;
   color: var(--lipstick);
   }
 
