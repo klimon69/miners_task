@@ -1940,12 +1940,86 @@ input[value]{
     color: black;
  }
 
+/*wrapper12*/
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 .wrapper12 {
+  height: 900px;
+  background-attachment: relative;
+  background-image: var(--white);
+  }
 
 
- }
+.QuestionsHead {
+  margin: 0 auto;
+  width: 80vw;
+  height: 50px;
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--dark);
+  }
+
+.QuestionBottom {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 80vw;
+  height: inline;
+  font-family: ProximaNova;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #273444;
+  color: var(--dark);
+  }
+
+.QuestionsContentBox {
+  margin: 0 auto;
+  width: 750px;
+  }
+
+.QuestionsContent{
+  width: 250px;
+  float: left;
+  }
+
+.QuestionsContent .QuestionsTheme{
+  width: 125px;
+  height: 23px;
+  font-family: ProximaNova;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.77;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+  }
+
+  .QuestionsContent .QuestionsLink{
+  width: 128px;
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: var(--lipstick);
+  }
 
 
 
