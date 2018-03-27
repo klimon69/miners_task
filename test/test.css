@@ -1522,7 +1522,7 @@ color: red;
 .wrapper9 {
   display: grid;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: white;
   grid-template-columns: 300px 1fr 1fr 400px;
   grid-template-rows: 50px 150px 150px 400px 50px ;
@@ -1595,12 +1595,6 @@ color: red;
      
 
   }
-
-
-
-
-
-
 
 
 
@@ -1697,6 +1691,219 @@ to { opacity: 1 }
 }
 
 
+
+/*wrapper10*/
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.wrapper10{
+
+width: 100%;
+height: 500px;
+background-color: red;
+
+
+
+}
+
+.wrapper10 img{
+
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+   top: -30%;
+    
+  
+}
+
+
+
+.wrapper10 h2 {
+     width: 700px;
+     height: 166px;
+     font-family: ProximaNovaLight;
+     font-size: 40px;
+     font-weight: 200;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 2.2;
+     letter-spacing: normal;
+     text-align: center;
+     color: var(--white);
+     }
+
+
+
+
+.wrapper10 h1 {
+     width: 700px;
+     height: 166px;
+     font-family: ProximaNovaLight;
+     font-size: 60px;
+     font-weight: 200;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 2.2;
+     letter-spacing: normal;
+     text-align: center;
+     color: var(--white);
+     }
+
+
+
+.token_pice {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 750px;
+    position: relative;
+
+}
+
+
+
+.counter {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    bottom: 20%;
+}
+
+
+
+.buy_rmc_btn {
+    margin: 0 auto;
+    position: relative;
+    bottom: 25%;
+    width: 500px;
+}
+
+
+
+
+.buy_rmc_btn #kupitrmc{
+    background-color: #273444;
+    width: 398px;
+    height: 64px;
+    border-radius: 100px;
+    color: white;
+    font-family: ProximaNova;
+    font-size: 25px;
+    }
+
+
+
+
+
+
+/*-------------------------------wrapper11--------------------------------------------------------*/
+
+
+
+
+    .inputemail input{
+
+  width: 266px;
+  height: 40px;
+  color: white;
+  padding-top: 5px;
+  float: left;
+  border-radius: 100px;
+  background-color : rgba(0, 255, 255, 0.23);
+  border: 0px solid white ;
+  box-shadow: none ;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none; 
+  
+ 
+}
+
+
+
+input[value]{
+
+
+ font-family: ProximaNovaLight;
+ font-size: 20px;
+ text-align: center;
+ outline:none;
+
+}
+
+
+.sign{
+  
+  float: left;
+  width: 180px;
+  height: 40px;
+  color: black;
+  padding-bottom: 20px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: white;
+  
+}
+
+
+.sign h4{
+
+  font-size: 13px;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: black;
+
+}
+
+
+
+  .leftpodval {
+    grid-area: leftpodval;
+    }
+
+  .logos {
+    padding-left: 10vw;  
+    }
+
+  .wrapper11 .leftpodval h4 {
+    grid-area: leftpodval;
+    padding-left: 10vw;
+    font-family: ProximaNovaLight;  
+    color: black; 
+    padding-top: 20px;
+    letter-spacing: 2px;
+    }
+
+  .wrapper11 .rightpodval {
+    grid-area: rightpodval;
+    padding-top: 30px;
+    padding-left: 10vw;   
+    padding-right: 100px;
+    }
+
+    .rightpodval {
+    color: white;
+    font-size: 20px;
+    font-family: ProximaNovaLight;
+    letter-spacing: 2px;
+    }
+
+  .wrapper1 {
+    font-size: 20px;
+    font-family: "ProximaNova-Light", sans-serif;
+    overflow: hidden;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+    grid-template-areas:
+    "leftpodval rightpodval";
+
+    background-color: #d21f26;
+    color: #444;
+    }
 
 
 
