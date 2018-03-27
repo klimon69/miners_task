@@ -196,7 +196,7 @@ a{
 .inputemail input{
 
   width: 266px;
-  height: 40px;
+  height: 45px;
   color: white;
   padding-top: 5px;
   float: left;
@@ -227,7 +227,7 @@ input[value]{
   
   float: left;
   width: 180px;
-  height: 40px;
+  height: 45px;
   color: black;
   padding-bottom: 20px;
   text-align: center;
@@ -248,6 +248,13 @@ input[value]{
   color: black;
 
 }
+
+
+.logos img{
+
+margin-right: 10px;
+
+  }
 
 
 
@@ -1801,96 +1808,125 @@ background-color: red;
 
 
 
-    .inputemail input{
+.wrapper11 .inputemail input{
 
-  width: 266px;
-  height: 40px;
-  color: white;
-  padding-top: 5px;
-  float: left;
-  border-radius: 100px;
-  background-color : rgba(0, 255, 255, 0.23);
-  border: 0px solid white ;
-  box-shadow: none ;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none; 
+     width: 266px;
+     height: 45px;
+     color: white;
+     padding-top: 5px;
+     float: left;
+     border-radius: 100px;
+     background-color : rgba(209, 209, 209, 0.8);
+     border: 0px solid white ;
+     box-shadow: none ;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none; 
   
  
-}
+   }
 
 
 
 input[value]{
 
 
- font-family: ProximaNovaLight;
- font-size: 20px;
- text-align: center;
- outline:none;
+      font-family: ProximaNovaLight;
+      font-size: 20px;
+      text-align: center;
+      outline:none;
 
 }
 
 
-.sign{
+.wrapper11 .sign{
   
-  float: left;
-  width: 180px;
-  height: 40px;
-  color: black;
-  padding-bottom: 20px;
-  text-align: center;
-  border-radius: 100px;
-  background-color: white;
+      float: left;
+     width: 180px;
+      height: 45px;
+     color: black;
+      padding-bottom: 20px;
+      text-align: center;
+      border-radius: 100px;
+      background-color: white;
+      border: 1px solid grey ;
   
 }
 
 
 .sign h4{
 
-  font-size: 13px;
-  font-weight: bolder;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1px;
-  color: black;
+      font-size: 13px;
+      font-weight: bolder;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+      color: black;
+
+}
+
+.wrapper11 .logos img{
+
+     margin-right: 10px;
 
 }
 
 
 
-  .leftpodval {
+.wrapper11 .leftpodval {
+
     grid-area: leftpodval;
-    }
 
-  .logos {
+}
+
+
+.wrapper11 .logos {
+
     padding-left: 10vw;  
-    }
 
-  .wrapper11 .leftpodval h4 {
+}
+
+
+
+.wrapper11 .leftpodval h4 {
+
     grid-area: leftpodval;
     padding-left: 10vw;
     font-family: ProximaNovaLight;  
     color: black; 
     padding-top: 20px;
     letter-spacing: 2px;
-    }
+}
 
-  .wrapper11 .rightpodval {
-    grid-area: rightpodval;
-    padding-top: 30px;
-    padding-left: 10vw;   
-    padding-right: 100px;
-    }
 
-    .rightpodval {
-    color: white;
-    font-size: 20px;
-    font-family: ProximaNovaLight;
-    letter-spacing: 2px;
-    }
 
-  .wrapper1 {
+.wrapper11 .rightpodval {
+
+     grid-area: rightpodval;
+     padding-top: 30px;
+     padding-left: 10vw;   
+     padding-right: 100px;
+
+}
+
+.wrapper11 .rightpodval h4{
+      color: black;
+      font-size: 20px;
+      font-family: ProximaNovaLight;
+      letter-spacing: 2px;
+}
+
+
+.wrapper11 .rightpodval h3{
+      color: black;
+      font-size: 14px;
+      font-family: ProximaNovaLight;
+      letter-spacing: 2px;
+ }
+
+
+.wrapper11 {
+
     font-size: 20px;
     font-family: "ProximaNova-Light", sans-serif;
     overflow: hidden;
@@ -1900,10 +1936,9 @@ input[value]{
     height: 250px;
     grid-template-areas:
     "leftpodval rightpodval";
-
-    background-color: #d21f26;
-    color: #444;
-    }
+    background-color: white;
+    color: black;
+ }
 
 
 
