@@ -9,6 +9,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="slider.js"></script>
     <script src="wow.min.js"></script>
+    <script src="TimeCounter.js"></script>
+
     <script>new WOW().init();
     </script>
   </head>
@@ -50,7 +52,7 @@
 
     <div class="box maintext">
       <h1 class="wow fadeInUp" data-wow-delay="1s" >Мультиклеточный майнинг</h1>
-      <h3 class="wow fadeInUp" data-wow-delay="1.5s">Революционная система для майнеров и инвесторов</h3>
+      <h3 class="wow fadeInUp" data-wow-delay="1.5s">Революционная экосистема для майнеров и инвесторов</h3>
       <p class="wow fadeInUp" data-wow-delay="1.6s">СТОИМОСТЬ 1RMC:<span class="redletters"> $8198</span></p>
       <p class="wow fadeInUp" data-wow-delay="1.7s">ТОКЕН МОЖНО ПРИОБРЕСТИ:<span class="redletters"> KUNA.IO, BITFLIP.CC</span></p>
     </div>
@@ -526,8 +528,33 @@ After the ICO ends, the collected funds will be made available to Cross Coin. In
 
 <div class="token_pice"><h2 class="wow fadeInUp" data-wow-offset="100">Стоимость токена возрастет через:</h2></div>
 
-<div class="counter"><h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="100">02|06|34|15|</h1></div>
-<div class="buy_rmc_btn"><input class="wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="100" type="button" id="kupitrmc" value = "КУПИТЬ RMC"></div>
+<div class="counter">
+
+<h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="100">
+
+  <div class="TimeCounter"> 
+    <div class="digit days">00</div>
+    <div class="word">дней</div>
+  </div>
+  <div class="TimeCounter"> 
+    <div class="digit hours">00</div>
+    <div class="word">часов</div>
+  </div>
+  <div class="TimeCounter"> 
+    <div class="digit minutes">00</div>
+    <div class="word">минуты</div>
+  </div>
+  <div class="TimeCounter sec"> 
+    <div class="digit seconds">00</div>
+    <div class="word">секунд</div>
+  </div>
+</h1>
+
+</div>
+
+<div class="buy_rmc_btn">
+  <input class="wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="100" type="button" id="kupitrmc" value = "КУПИТЬ RMC">
+</div>
 
 <!--================счётчик======================== -->
 
@@ -602,9 +629,6 @@ After the ICO ends, the collected funds will be made available to Cross Coin. In
 
 
 </div>  <!-- wrapper12 -->
-
-
-
 
 
 </body>
