@@ -190,6 +190,72 @@ a{
     color: #273444;
     }
 
+
+.wrapper .counter {
+    position: relative;
+    width: 500px;
+    height: 80px;
+}
+
+.wrapper .PriceIncrise {
+  position: relative;
+  padding-top: 15px;
+  padding-right: 20px;
+  float: left;
+  width: 240px;
+  height: 13px;
+  text-transform: uppercase;
+  font-family: ProximaNova;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #273444;
+  color: var(--dark);
+}
+
+.wrapper .TimeCounter {
+    position: relative;
+    float: left;
+    padding: 5px;
+    border-color: transparent #273444 transparent transparent; 
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wrapper .sec { border-color: transparent; } /*костыль*/
+
+.wrapper .digit {
+  width: 40px;
+  height: 29px;
+  font-family: ProximaNova;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: var(--dark);
+}
+
+.wrapper .word {
+  width: 40px;
+  height: 11px;
+  font-family: ProximaNova;
+  font-size: 9px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: var(--dark);
+}
+
 /*wrapper1 ссылки и рассылки*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
   
@@ -1781,7 +1847,7 @@ background-color: red;
     }
 
 
-.counter {
+.wrapper10 .counter {
     position: relative;
     margin: 0 auto;
     width: 280px;
@@ -1794,6 +1860,7 @@ background-color: red;
     padding: 5px;
     border-color: transparent #ffffff transparent transparent; 
     border-style: solid;
+    border-width: 1px;
 }
 
 .wrapper10 .sec { border-color: transparent; } /*костыль*/

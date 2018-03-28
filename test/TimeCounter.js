@@ -22,12 +22,11 @@ function parseTime_bv(timestamp){
 }
 
 $(document).ready(function(){
-    setInterval(function(){
+    setInterval(function()  {
         remain_bv = remain_bv - 1;
         parseTime_bv(remain_bv);
-        if(remain_bv <= 0){
-            alert('TimeUp!');
-        }
-    }, 1000);
+
+        if(remain_bv <= 0){ alert('TimeUp!'); } 
+                            }, 1000);
 });
 
