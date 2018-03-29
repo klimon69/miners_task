@@ -221,7 +221,6 @@ a{
   float: left;
   width: 240px;
   height: 13px;
-  text-transform: uppercase;
   font-family: ProximaNova;
   font-size: 11px;
   font-weight: normal;
@@ -271,6 +270,37 @@ a{
   letter-spacing: 0.8px;
   text-align: center;
   color: var(--dark);
+}
+
+.RmcBox {
+    float: left;
+    height: 60px;
+    padding-right: 30px;
+}
+
+.RmcBox p{
+  width: 200px;
+  height: 13px;
+  font-family: ProximaNova;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #273444;
+  color: var(--dark);
+}
+
+.RmcBox .buy_rmc_btn {
+    background-color: #d21f26;
+    width: 184px;
+    height: 44px;
+    border-radius: 100px;
+    color: white;
+    font-family: ProximaNova;
+    font-size: 15px; 
 }
 
 /*wrapper1 ссылки и рассылки*/
