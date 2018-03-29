@@ -1429,6 +1429,7 @@ bottom: 50px;
   padding: 10px;
   float: left;
 
+
 }
 
 
@@ -1461,7 +1462,7 @@ bottom: 50px;
 }
 
 
-.slide-title #text_man{
+#text_man{
 
   font-size: 18px;
   color: white;
@@ -1509,11 +1510,16 @@ bottom: 50px;
 }
 
 
+
+
+
 /*============psevdo_classes=============*/
 
 
 
  .slide-title:hover{
+
+
   
   font-size: 40px;
   color: white;
