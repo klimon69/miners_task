@@ -23,7 +23,7 @@ body {
    margin: 0px;
   }
 
-
+img {max-width:100%;height:auto;}
 /*====================БОКОВОЕ МЕНЮ=========================================*/
 
 
@@ -419,8 +419,7 @@ input[value]{
 }
 
 
-.sign{
-  
+.sign {
   float: left;
   width: 180px;
   height: 45px;
@@ -429,12 +428,10 @@ input[value]{
   text-align: center;
   border-radius: 100px;
   background-color: white;
-  
 }
 
 
-.sign h4{
-
+.sign h4 {
   font-size: 13px;
   font-weight: bolder;
   font-style: normal;
@@ -442,17 +439,12 @@ input[value]{
   line-height: normal;
   letter-spacing: 1px;
   color: black;
-
 }
 
 
-.logos img{
-
-margin-right: 10px;
-
-  }
-
-
+.logos img {
+  margin-right: 10px;
+}
 
   .leftpodval {
     grid-area: leftpodval;
@@ -554,23 +546,22 @@ margin-right: 10px;
   color: var(--dark);
   }
 
-.panel{
+.panel {
   grid-area: panel;
   }
 
 .panel .icons {
-    display: table;
-    margin: 0 auto;
-}
+  display: table;
+  margin: 0 auto;
+  }
 
-.play{
+.play {
   font-family: ProximaNova;
   font-size: 18px;
   width: 225px;
   height: 50px;
   float: left;
   padding-top: 20px;
-  
   }  
 
 .text_play{
@@ -612,13 +603,10 @@ margin-right: 10px;
 
 .romb {
   margin:0 auto;
-  width: 1400px;
+  width: 100%;
   height: 300px;
   position: relative;
-  
   top: 25%;
-
-  
   }
 
 .romb .romb1 {
@@ -641,8 +629,8 @@ margin-right: 10px;
   width: 300px;
   position: relative;
   left: 10%;
-   float: left;
-}
+  float: left;
+  }
 
 .romb .romb4 {
   width: 300px;
@@ -651,7 +639,7 @@ margin-right: 10px;
   left: 15%;
   bottom: 20%;
   right: 0;
-}
+  }
 
 .romb_solid1 {
   width: 200px;
@@ -661,8 +649,7 @@ margin-right: 10px;
   scale(1.05);
   border: 1px solid var(--lipstick) ;
   position: relative;
-    
-    }
+  }
 
 
 .romb_dashed1 {
@@ -671,9 +658,8 @@ margin-right: 10px;
   transform: rotate(180deg)
   scale(1.15);
   border: 1px dashed var( --purpley-grey) ;
-   position: relative;
-    
-    }
+  position: relative;
+  }
 
 .num1 {
   font-family: ProximaNovaLight;
@@ -715,7 +701,7 @@ margin-right: 10px;
   scale(1.05);
   border: 1px solid var(--lipstick) ;
   position: relative;
-    }
+  }
 
 .romb_dashed2 {
   width: 200px;
@@ -725,8 +711,7 @@ margin-right: 10px;
  
   border: 1px dashed var( --purpley-grey) ;
   position: relative;
-
-    }
+  }
 
 .num2 {
   font-family: ProximaNovaLight;
@@ -766,14 +751,14 @@ margin-right: 10px;
   scale(1.05);
   border: 1px solid var(--lipstick) ;
   position: relative;
-}
+  }
 
 
 .romb_dashed3 {
-    width: 200px;
-    height: 200px;
-    transform: rotate(180deg)
-    scale(1.15);
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg)
+  scale(1.15);
   
   border: 1px dashed var( --purpley-grey) ;
   position: relative;
@@ -867,7 +852,7 @@ margin-right: 10px;
     height: 1200;
     display: grid;
     grid-gap: 70px;
-    grid-template-rows: 600px 600px;
+    grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
     grid-template-columns: 1fr 1fr;
     background-color: var(--white);
     color: #444;
@@ -1070,7 +1055,7 @@ margin-right: 10px;
   height: 2000px;
   width: 100%;
   background-color: var(--black);
-  grid-template-columns: 50px 1fr 1fr 50px;
+  grid-template-columns: 50px minmax(100px, 1fr) minmax(100px, 1fr) 50px;
     grid-template-rows: 200px 150px 400px 500px 100px 500px ;
     grid-template-areas:
     ". . . ."
@@ -1346,11 +1331,10 @@ bottom: 50px;
 
 
 /* main */
-#main {
+.wrapper7 {
   width: 100%;
   height: 800px;
   background-color: white;
-  position: relative;
 }
 
 
@@ -1364,18 +1348,16 @@ bottom: 50px;
 }
 
 
-#people{
+#people {
+  display: table;
   margin: 0 auto;
   height: auto;
   position: relative;
   top: -900px;
-  left: 22%;
-  float: left;
-
 }
 
 
-#main h1 { 
+.wrapper7 h1 { 
   text-align: center;
   font-size: 70px;
   position: relative;
@@ -1418,25 +1400,18 @@ bottom: 50px;
     display: inline-block;
     background-color: black;
     height: 460px;
-
-
 }
 
 
 .slide-item {
-  
   width: 360px;
   padding: 10px;
   float: left;
-
-
 }
 
 
 .slide-item img{
-
    opacity: 0.7;
-
 }
 
 
@@ -1455,10 +1430,7 @@ bottom: 50px;
 
 
 #redline{
-
    color: red;
-
-
 }
 
 
@@ -1468,9 +1440,6 @@ bottom: 50px;
   color: white;
   font-family: ProximaNovaLight;
   line-height: -15px;
-  
-
-    
 }
 
 
@@ -1496,7 +1465,6 @@ bottom: 50px;
 
 }
 .next-slide {
-  
   float: right;
   right: -100px;
   height: 100px;
@@ -1511,16 +1479,9 @@ bottom: 50px;
 
 
 
-
-
 /*============psevdo_classes=============*/
 
-
-
- .slide-title:hover{
-
-
-  
+ .slide-title:hover {
   font-size: 40px;
   color: white;
   font-family: ProximaNovaLight;
@@ -1530,23 +1491,15 @@ bottom: 50px;
   padding: 20px;
   letter-spacing: -1px;
   line-height: 35px;
-  
 }
 
-
-.slide-item img:hover{
-
+.slide-item img:hover {
    opacity:0.4;
-
 }
-
-
 
 
 /*wrapper8*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 
 
 .wrapper8 {
@@ -1563,24 +1516,15 @@ bottom: 50px;
     "logo5 logo6 logo7 logo8"
     "logo9 logo10 logo11 logo12"
     ". . . .";
-    position: absolute;
-   
-
   }
 
 
-
-
   .title {
-
        grid-area: title;
-       
-
     }
 
 
     .title h1{
-
      text-align: center;
      font-size: 70px;
      font-family: ProximaNovaLight;
@@ -1590,128 +1534,90 @@ bottom: 50px;
      font-style: normal;
      font-stretch: normal;
      line-height: 2.2;
-
     }
 
-
   .logo1{
-     
      grid-area: logo1;
      background: url(assets/logos/logos-assets/rbk.png) no-repeat;
      background-size: 50%;
      background-position: center;
-     
-
-  }
-
+   }
 
   .logo2{
-
      grid-area: logo2;
      background: url(assets/logos/logos-assets/ria.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo3{
-
      grid-area: logo3;
      background: url(assets/logos/logos-assets/Insider.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo4{
-
      grid-area: logo4;
      background: url(assets/logos/logos-assets/novayagazeta.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo5{
-
      grid-area: logo5;
      background: url(assets/logos/logos-assets/cryptochan.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo6{
-
      grid-area: logo6;
      background: url(assets/logos/logos-assets/finanz.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo7{
-
      grid-area: logo7;
      background: url(assets/logos/logos-assets/rns.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo8{
-
      grid-area: logo8;
      background: url(assets/logos/logos-assets/bloomberg.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo9{
-
      grid-area: logo9;
      background: url(assets/logos/logos-assets/bitcom.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo10{
-
      grid-area: logo10;
      background: url(assets/logos/logos-assets/investopedia.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
   .logo11{
-
      grid-area: logo11;
      background: url(assets/logos/logos-assets/rucoin.png) no-repeat;
      background-size: 50%;
      background-position: center;
-
   }
 
-
-
   .logo12{
-  
-       grid-area: logo12;
-       background: url(assets/logos/logos-assets/vesti.png) no-repeat;
-     background-size: 50%;
-     background-position: center;
+    grid-area: logo12;
+    background: url(assets/logos/logos-assets/vesti.png) no-repeat;
+    background-size: 50%;
+    background-position: center;
     }
 
 
@@ -1723,7 +1629,7 @@ bottom: 50px;
   width: 100%;
   height: 1000px;
   background-color: white;
-  grid-template-columns: 300px 1fr 1fr 400px;
+  grid-template-columns: 50px 1fr 1fr 50px;
   grid-template-rows: 50px 150px 150px 400px 50px ;
   grid-template-areas:
   ". . . ."
@@ -1731,49 +1637,31 @@ bottom: 50px;
   " . download  radio_menu .  "
   "  . . radio_menu ."
   " . . . .";
-    
-   
 
   }
 
   .faq{
-     
      grid-area: faq;
-     
-
   }
 
 
   .download{
-
       grid-area: download;
       padding-top: 10%;
-
-
   }
 
   .download img{
-
      float: left;
      padding-right: 20px;
   }
 
 
-
-
-
   .download h5{
-
      text-align: center;
      float: left;
-
   }
 
-
-
-
   .faq h1{
-
      text-align: left;
      font-size: 70px;
      font-family: ProximaNovaLight;
@@ -1783,18 +1671,13 @@ bottom: 50px;
      font-style: normal;
      font-stretch: normal;
      line-height: 2.2;
-
     }
 
 
   .radio_menu{
-
      grid-area: radio_menu;
      padding-top: 10%;
-     
-
-  }
-
+    }
 
 
 @charset "UTF-8";
@@ -1889,11 +1772,8 @@ to { opacity: 1 }
     content: "\2212";
 }
 
-
-
 /*wrapper10*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 
 .wrapper10{
@@ -1903,12 +1783,10 @@ height: 500px;
 background-color: red;
 }
 
-.wrapper10 img{
-
+.wrapper10 img {
    width: 100%;
    overflow: hidden;
    position: relative;
-
 }
 
 
@@ -1928,8 +1806,6 @@ background-color: red;
      }
 
 
-
-
 .wrapper10 h1 {
      width: 280px;
      height: 100px;
@@ -1945,15 +1821,12 @@ background-color: red;
      }
 
 
-
 .token_pice {
     margin: 0 auto;
     padding-top: 50px;
     width: 750px;
     position: relative;
-
 }
-
 
 .buy_rmc_btn {
     margin: 0 auto;
