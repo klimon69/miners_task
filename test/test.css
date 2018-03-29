@@ -62,12 +62,22 @@ ul {
     padding: 0;
 }
 
+#v{
+
+  color: #D2B48C;
+    font-family: ProximaNovaLight;
+    font-size: 15px;
+    
+    
+}
+
 
 .topmenu > li {
     display: inline-block;
     margin-right: 20px;
     position: relative;
 }
+
 
 a{
     display: block;
@@ -79,21 +89,25 @@ a{
     color: #273444;
 }
 
+
 .one .submenu {
     display: none;
     background: white;
 }
 
-.one ul li: hover .submenu {
+.one ul li:hover .submenu {
     display: block;
 }
 
+
 .submenu li a {
+  
     color: black;
     font-family: ProximaNova;
-    font-size: 10px;
+    font-size: 15px;
     color: #273444;
 }
+
 
 
 /*==========конец выбор языка===============*/
