@@ -377,7 +377,7 @@ a{
   color: var(--dark);
 }
 
-.RmcBox .buy_rmc_btn {
+#buy_rmc_btn {
     background-color: #d21f26;
     width: 184px;
     height: 44px;
