@@ -67,13 +67,14 @@ ul {
   color: #D2B48C;
     font-family: ProximaNovaLight;
     font-size: 15px;
-    
+
     
 }
 
 
 .topmenu > li {
     display: inline-block;
+
     margin-right: 20px;
     position: relative;
 }
@@ -97,6 +98,8 @@ a{
 
 .one ul li:hover .submenu {
     display: block;
+    
+    
 }
 
 
@@ -1210,6 +1213,8 @@ bottom: 50px;
   }
 
   .wrapper6 .mounth {
+  float: right;
+  right: 5px;
   position: relative;
   display: inline;
   font-family: ProximaNova;
@@ -1291,7 +1296,6 @@ bottom: 50px;
   text-align: center;
   font-size: 70px;
   position: relative;
-  
   text-align: center;
   font-family: ProximaNovaLight;
   letter-spacing: 5px;
@@ -1306,7 +1310,7 @@ bottom: 50px;
 /* Slider */
 .slider {
   
-  width: 1100px;
+  width: 1090px;
   margin: 50px auto;
   overflow: hidden;
 
@@ -1333,15 +1337,31 @@ bottom: 50px;
 }
 
 
+.blackwrapper{
+    display: inline-block;
+    background-color: black;
+    height: 460px;
+
+
+}
+
+
 .slide-item {
   
   width: 360px;
   padding: 10px;
   float: left;
 
+}
 
+
+.slide-item img{
+
+   opacity: 0.7;
 
 }
+
+
 .slide-title {
   
   font-size: 40px;
@@ -1355,9 +1375,10 @@ bottom: 50px;
   line-height: 35px;
 }
 
+
 #redline{
 
-color: red;
+   color: red;
 
 
 }
@@ -1401,7 +1422,7 @@ color: red;
   float: right;
   right: -100px;
   height: 100px;
-  top: 32%;
+  top: 37%;
   background: url(img/arrow-big.png) no-repeat;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -1428,6 +1449,14 @@ color: red;
   line-height: 35px;
   
 }
+
+
+.slide-item img:hover{
+
+   opacity:0.4;
+
+}
+
 
 
 

@@ -81,3 +81,5 @@ jQuery(document).ready(function(){
 	/* иницилизируем функцию слайдера */
 	htmSlider();
 });
+
+
