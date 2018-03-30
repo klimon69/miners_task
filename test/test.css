@@ -75,7 +75,7 @@ img {max-width:100%;height:auto;}
     background: lavender; /* цвет фона */
     color: #000; /* цвет текста */
     width: 600px; /* ширина блока */
-    height: 1000px; /* высота блока */
+    height: 1100px; /* высота блока */
     padding: 0px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
      padding-left: 50px;
@@ -155,7 +155,82 @@ float: right;
 }
 
 
+.red_hrefs{
 
+color: red;
+
+font-family: ProximaNovaLight;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+
+
+}
+
+
+
+ #hidden_panel .panel {
+  grid-area: panel;
+  padding-top: 50px;
+  }
+
+.panel .icons {
+  display: table;
+  margin: 0 auto;
+  }
+
+#hidden_panel .play {
+  font-family: ProximaNova;
+  font-size: 12px;
+  width: 225px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  }  
+
+#hidden_panel .text_play{
+  float: right;
+  padding-top: 15px;
+  padding-right: 120px;
+  }
+
+#hidden_panel .present{
+  font-family: ProximaNova;
+  font-size: 12px;
+  width: 225px;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+  left: -100px;
+  position: relative;
+  }
+
+#hidden_panel .text_present{
+  float: right;
+  padding-top: 15px;
+  padding-right: 80px;
+  }
+
+#hidden_panel .whitpaper{
+  font-family: ProximaNova;
+  font-size: 12px;
+  width: 160px;
+  height: 50px;
+  float: right;
+ bottom: 50px;
+ right: 40px;
+  position: relative;
+  }
+
+#hidden_panel .text_whitpaper{
+  float: right;
+  padding-top: 15px;
+  position: relative;
+  right: 20px;
+  }
 
 
 
