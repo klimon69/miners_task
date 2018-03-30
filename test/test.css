@@ -510,6 +510,7 @@ input[value]{
 
   .rombs {
     grid-area: rombs; 
+    padding-left: 300px;
     }
 
   .wrapper2text {
