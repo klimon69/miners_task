@@ -849,7 +849,7 @@ input[value]{
 /*wrapper3*/
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
   .wrapper3 {
-    height: 1200;
+    height: 1400px;
     display: grid;
     grid-gap: 70px;
     grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
