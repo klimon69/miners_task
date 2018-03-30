@@ -7,6 +7,10 @@
   --lipstick: #d21f26;
   --dark: #273444;
   --white: #ffffff;
+
+  --DiamondSize: 300px;
+  --DiamondSizeIn: 200px;
+  --DiamondSizeMin: 150px;
 }
 
 @font-face {
@@ -91,18 +95,12 @@ img {max-width:100%;height:auto;}
     }
 
 #hidden_panel .ru{
-
 padding-left: 200px;
-
-
 }
 
 
 #hidden_panel #kupit{
-
 float: right;
-
-
 }
 
 
@@ -114,8 +112,6 @@ float: right;
 }
 
 .go_to h2{
-
-    
     font-family: ProximaNova;
     font-size: 33px;
     font-weight: normal;
@@ -166,8 +162,6 @@ font-family: ProximaNovaLight;
     font-stretch: normal;
     line-height: 1.67;
     letter-spacing: normal;
-
-
 }
 
 
@@ -637,7 +631,7 @@ input[value]{
 
   .rombs {
     grid-area: rombs; 
-    padding-left: 300px;
+
     }
 
   .wrapper2text {
@@ -730,23 +724,24 @@ input[value]{
 /*-----------ромбы--------------------*/
 
 .romb {
+  display: table;
   margin:0 auto;
-  width: 100%;
+  width: 80vw;
   height: 300px;
   position: relative;
   top: 25%;
   }
 
 .romb .romb1 {
-  width: 300px;
-  height: 200px;
+  width: var(--DiamondSize);
+  height: var(--DiamondSizeIn);
   position: relative; 
   float: left;
   padding: 0;
   }
 
 .romb .romb2 {
-  width: 300px;
+  width: var(--DiamondSize);
   position: relative;
   float: left;
   bottom: 20%;
@@ -754,14 +749,14 @@ input[value]{
   }
 
 .romb .romb3 {
-  width: 300px;
+  width: var(--DiamondSize);
   position: relative;
   left: 10%;
   float: left;
   }
 
 .romb .romb4 {
-  width: 300px;
+  width: var(--DiamondSize);
   position: relative;
   float: left;
   left: 15%;
@@ -770,8 +765,8 @@ input[value]{
   }
 
 .romb_solid1 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(135deg)
   skew(18deg, 18deg)
   scale(1.05);
@@ -781,8 +776,8 @@ input[value]{
 
 
 .romb_dashed1 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(180deg)
   scale(1.15);
   border: 1px dashed var( --purpley-grey) ;
@@ -822,8 +817,8 @@ input[value]{
 
 
 .romb_solid2 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(135deg)
   skew(18deg, 18deg)
   scale(1.05);
@@ -832,8 +827,8 @@ input[value]{
   }
 
 .romb_dashed2 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(180deg)
   scale(1.15);
  
@@ -856,7 +851,7 @@ input[value]{
   }
 
 .romb2_text {
-  width: 200px;
+  width: var(--DiamondSizeIn);
   font-family: ProximaNovaLight;
   font-size: 100%;
   font-weight: 300;
@@ -872,8 +867,8 @@ input[value]{
   }
 
 .romb_solid3 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(135deg)
   skew(18deg, 18deg)
   scale(1.05);
@@ -883,8 +878,8 @@ input[value]{
 
 
 .romb_dashed3 {
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(180deg)
   scale(1.15);
   
@@ -909,7 +904,7 @@ input[value]{
   }
 
 .romb3_text{
-  width: 200px;
+  width: var(--DiamondSizeIn);
   font-family: ProximaNovaLight;
   font-size: 100%;
   font-weight: 300;
@@ -925,8 +920,8 @@ input[value]{
   }
 
 .romb_solid4{
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(135deg)
   skew(18deg, 18deg)
   scale(1.05);
@@ -936,8 +931,8 @@ input[value]{
 
 
 .romb_dashed4{
-  width: 200px;
-  height: 200px;
+  width: var(--DiamondSizeIn);
+  height: var(--DiamondSizeIn);
   transform: rotate(180deg)
   scale(1.15);
  
@@ -962,7 +957,7 @@ input[value]{
   }
 
 .romb4_text{
-  width: 200px;
+  width: var(--DiamondSizeIn);
   font-family: ProximaNovaLight;
   font-size: 100%;
   font-weight: 300;
