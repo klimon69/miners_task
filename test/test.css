@@ -88,7 +88,7 @@ img {max-width:100%;height:auto;}
     left: 0; /* отступ слева */
 }
 
-.go_to{
+.go_to h2{
 
     
     font-family: ProximaNova;
@@ -100,9 +100,36 @@ img {max-width:100%;height:auto;}
     letter-spacing: normal;
     text-align: left;
     color: gray;
-
+    transition: 0.5s linear;
+    text-decoration:none;
+   position:relative;
 
 }
+
+
+.go_to h2:hover{
+
+ color: red;
+
+}
+
+
+
+.go_to h2:before{
+   position:absolute;
+   bottom: -10px;
+   content: " ";
+   border-bottom: 2px solid red;
+   transform: scale(0,1);
+   width:250px;
+   transition: transform 0.3s
+}
+
+.go_to h2:hover:before{
+   transform: scale(1,1);
+}
+
+
 
 
 
