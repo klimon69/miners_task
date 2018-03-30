@@ -53,6 +53,13 @@ img {max-width:100%;height:auto;}
     }
 
 
+    .hrefs{
+
+      padding-top: 200px;
+
+    }
+
+
     #panel img{
 
       float: left;
@@ -71,16 +78,34 @@ img {max-width:100%;height:auto;}
     height: 1000px; /* высота блока */
     padding: 0px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
-
+     padding-left: 50px;
     -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-
+     padding-top: 50px;
     -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
     -moz-border-radius: 0 5px 5px 0;
     border-radius: 0 5px 5px 0;
+    padding-right: 50px;
     }
+
+#hidden_panel .ru{
+
+padding-left: 200px;
+
+
+}
+
+
+#hidden_panel #kupit{
+
+float: right;
+
+
+}
+
+
 #panel:hover {
     right: 0px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
 }
@@ -96,7 +121,7 @@ img {max-width:100%;height:auto;}
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.32;
+   
     letter-spacing: normal;
     text-align: left;
     color: gray;
