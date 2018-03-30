@@ -113,7 +113,7 @@ float: right;
     left: 0; /* отступ слева */
 }
 
-.go_to h2{
+.go_to{
 
     
     font-family: ProximaNova;
@@ -125,36 +125,9 @@ float: right;
     letter-spacing: normal;
     text-align: left;
     color: gray;
-    transition: 0.5s linear;
-    text-decoration:none;
-   position:relative;
+
 
 }
-
-
-.go_to h2:hover{
-
- color: red;
-
-}
-
-
-
-.go_to h2:before{
-   position:absolute;
-   bottom: -10px;
-   content: " ";
-   border-bottom: 2px solid red;
-   transform: scale(0,1);
-   width:250px;
-   transition: transform 0.3s
-}
-
-.go_to h2:hover:before{
-   transform: scale(1,1);
-}
-
-
 
 
 
@@ -307,7 +280,7 @@ a{
     }
 /*КОНЕЦ ВЫБОР ЯЗЫКА*/
 
-  .maintext h1{
+  .maintext h1 {
     font-family: ProximaNova;
     font-size: 53px;
     font-weight: normal;
@@ -319,7 +292,7 @@ a{
     color: #273444;
     }
 
-  .maintext h3{
+  .maintext h3 {
     font-family: ProximaNovaLight;
     font-size: 24px;
     font-weight: 300;
@@ -331,7 +304,7 @@ a{
     color: #273444;
     }
 
-  .maintext p{
+  .maintext p {
     font-family: ProximaNovaLight;
     font-size: 11px;
     font-weight: 300;
@@ -348,6 +321,7 @@ a{
     position: relative;
     width: 500px;
     height: 80px;
+    padding-bottom: 20px;
 }
 
 .wrapper .PriceIncrise {
@@ -372,7 +346,8 @@ a{
 .wrapper .TimeCounter {
     position: relative;
     float: left;
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-color: transparent #273444 transparent transparent; 
     border-style: solid;
     border-width: 1px;
@@ -415,7 +390,7 @@ a{
 }
 
 .RmcBox p{
-  width: 200px;
+  width: 300px;
   height: 13px;
   font-family: ProximaNova;
   font-size: 11px;
@@ -425,7 +400,6 @@ a{
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #273444;
   color: var(--dark);
 }
 
